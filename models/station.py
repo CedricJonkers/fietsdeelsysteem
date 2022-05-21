@@ -50,26 +50,40 @@ class Stations():
                     aantal_slots = int(station[13])
                     station = Station(id, aantal_slots)
                     self.stations.append(station)
-            #return self.stations
-            for s in self.stations:
-                print(s)
-                for i in range(s.slots):
-                    x = random.randint(0,1)
-                    if (x == 1):
-                        één_slot = slot.Slot(s.id,i,"een")
-                        Station(s.id,s.slots).voeg_fiets_toe(x)
-                    else:
-                        één_slot = slot.Slot(s.id,i,"geen")
-                    self.slots.append(één_slot)
-                    print(één_slot)
-                    
+            return self.stations
+        #     for s in self.stations:
+        #         print(s)
+        #         for i in range(s.slots):
+        #             x = random.randint(0,1)
+        #             if (x == 1):
+        #                 één_slot = slot.Slot(s.id,i,"een")
+        #                 Station(s.id,s.slots).voeg_fiets_toe(x)
+        #             else:
+        #                 één_slot = slot.Slot(s.id,i,"geen")
+        #             self.slots.append(één_slot)
+        #             print(één_slot)
+        # return self.stations
+
+    def add_slots_bikes(self):
+        for s in self.stations:
+            print(s)
+            for i in range(s.slots):
+                x = random.randint(0, 1)
+                if (x == 1):
+                    één_slot = slot.Slot(s.id, i, "een")
+                    Station(s.id, s.slots).voeg_fiets_toe(x)
+                else:
+                    één_slot = slot.Slot(s.id, i, "geen")
+                self.slots.append(één_slot)
+                print(één_slot)
+        return self.slots     
 
     def toon_stations(self):
         list = self.stations
         count = 0
         for key in list:
             sta = list[count]
-            print(sta.id)
+            print(sta)
             count+=1
         return list
 

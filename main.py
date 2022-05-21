@@ -10,14 +10,14 @@ class App():
         self.gebruikers_list = gebruiker.Gebruikers()
         self.station = station.Station(0,0)
         self.stations = station.Stations()
-        self.station_data = station.Stations().read_stations()
+        self.station_data = self.stations.read_stations()
         self.gebruikers_data = self.gebruikers_list.generate_gebruikers()
 
 
 mijn_app = App()
 list_g = mijn_app.gebruikers_list.toon_gebruikers()
 list_s = mijn_app.stations.toon_stations()
-print(list_s)
+mijn_app.stations.add_slots_bikes()
 
 df = pd.DataFrame({'stations':mijn_app.stations.toon_stations()})
 html_table = to_html.create_html_table(df)

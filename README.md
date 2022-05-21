@@ -1,1 +1,2 @@
 # fietsdeelsysteem
+# venv\Scripts\activate

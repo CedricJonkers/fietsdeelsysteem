@@ -1,0 +1,57 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+ 
+body {
+    margin: 3rem;
+    font-family: "helvetica neue";
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+
+strong {
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: darkgrey;
+    color: white;
+    padding: .2rem;
+    margin-right: 2rem;
+}
+
+strong.ok {
+    background-color: green;
+}
+
+strong.not_ok {
+    background-color: red;
+}
+
+li {
+    border-bottom: .1rem solid grey;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+span {
+    display: inline-block;
+    width: 20rem;
+}
+
+time {
+    position: absolute;
+    right: 0;
+    top: .2rem;
+}

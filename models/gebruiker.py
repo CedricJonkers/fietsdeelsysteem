@@ -50,6 +50,7 @@ class Gebruikers():
             gebr = list[count]
             print(gebr)
             count+=1
+        return list
             
 
     def __repr__(self):

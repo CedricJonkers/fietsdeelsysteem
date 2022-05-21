@@ -50,6 +50,7 @@ class Stations():
                     aantal_slots = int(station[13])
                     station = Station(id, aantal_slots)
                     self.stations.append(station)
+            #return self.stations
             for s in self.stations:
                 print(s)
                 for i in range(s.slots):
@@ -61,6 +62,16 @@ class Stations():
                         één_slot = slot.Slot(s.id,i,"geen")
                     self.slots.append(één_slot)
                     print(één_slot)
+                    
+
+    def toon_stations(self):
+        list = self.stations
+        count = 0
+        for key in list:
+            sta = list[count]
+            print(sta.id)
+            count+=1
+        return list
 
     def __repr__(self):
         return '\n'.join(str(stat) for stat in self.stations)

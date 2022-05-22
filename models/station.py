@@ -20,7 +20,8 @@ class Station():
 
     def voeg_fiets_toe(self, slot):
         locatie = f"{self.straatnaam}, {self.postcode}, {self.district} in station: {slot}" 
-        self.fietsen.append(fiets.Fiets("fietstransporteur", "in gebruik"))
+        self.fietsen.append(fiets.Fiets("fietstransporteur", False))
+        return self.fietsen
         #logger.Logger().log_to_file(str("fietstransporteur heeft de fiets succesvol toegevoegd op locatie: " + str(locatie)))
 
     def voeg_één_fiets_toe(self, gebruiker, slot):
@@ -33,6 +34,14 @@ class Station():
     def voeg_slot_toe(self, nummer, bezet):
         self.slots.append(slot.Slot(self.id, nummer, bezet))
         return self.slots
+    
+    def check_fiets(self):
+        list = self.fietsen
+        count = 0
+        for key in list:
+            slot = list[count]
+            count+=1
+        return list
     
     def check_slot(self):
         list = self.slots
@@ -91,6 +100,7 @@ class Stations():
                 x = random.randint(0, 1)
                 if (x == 1):
                     s.voeg_slot_toe(i, True)
+                    s.voeg_fiets_toe(i)
                 else:
                     s.voeg_slot_toe(i, False)
 

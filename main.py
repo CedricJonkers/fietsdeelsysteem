@@ -58,7 +58,8 @@ while(True):
     elif option == 3:
         stat = input('Geef je station: ')
         mijn_station = mijn_app.stations.zoek_op_id(stat)
-        print(mijn_station.check_slot())
+        print(mijn_station.check_fiets())
+        #print(mijn_station.check_slot())
         #list_s = mijn_app.stations.check_slots()
         
     elif option == 4:

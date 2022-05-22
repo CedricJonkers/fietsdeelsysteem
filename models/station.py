@@ -1,5 +1,6 @@
 import models.fiets as fiets
 import models.slot as slot
+import logger as logger
 import random
 
 
@@ -13,13 +14,14 @@ class Station():
         for een_fiets in fietsen:
             self.fietsen.append(fiets.Fiets("fietstransporteur", "in gebruik"))
             for s in self.fietsen:
+                logger.Logger().log_to_file(str("toegevoegd door: " + s.gebruiker))
                 print("toegevoegd door: " + s.gebruiker)
 
     def voeg_één_fiets_toe(self, gebruiker):
-        # if len(self.fietsen) < self.slots:
         self.fietsen.append(fiets.Fiets(gebruiker, "in gebruik"))
         for s in self.fietsen:
-            print(str(s.gebruiker) + "heeft de fiets succesvol ontgrendeld!")
+            logger.Logger().log_to_file(str(s.gebruiker + " heeft de fiets succesvol ontgrendeld!"))
+            # print(str(s.gebruiker) + "heeft de fiets succesvol ontgrendeld!")
             print(len(self.fietsen))
 
     def doe_fiets_weg(self, gebruiker, *fietsen):
@@ -51,18 +53,6 @@ class Stations():
                     station = Station(id, aantal_slots)
                     self.stations.append(station)
             return self.stations
-        #     for s in self.stations:
-        #         print(s)
-        #         for i in range(s.slots):
-        #             x = random.randint(0,1)
-        #             if (x == 1):
-        #                 één_slot = slot.Slot(s.id,i,"een")
-        #                 Station(s.id,s.slots).voeg_fiets_toe(x)
-        #             else:
-        #                 één_slot = slot.Slot(s.id,i,"geen")
-        #             self.slots.append(één_slot)
-        #             print(één_slot)
-        # return self.stations
 
     def add_slots_bikes(self):
         for s in self.stations:
@@ -70,13 +60,30 @@ class Stations():
             for i in range(s.slots):
                 x = random.randint(0, 1)
                 if (x == 1):
-                    één_slot = slot.Slot(s.id, i, "een")
+                    één_slot = slot.Slot(s.id, i, True)
                     Station(s.id, s.slots).voeg_fiets_toe(x)
                 else:
-                    één_slot = slot.Slot(s.id, i, "geen")
+                    één_slot = slot.Slot(s.id, i, False)
                 self.slots.append(één_slot)
                 print(één_slot)
-        return self.slots     
+        return self.slots   
+
+    def zoek_op_naam(self, naam):
+        list = self.stations
+        count = 0
+        for key in list:
+            stat = list[count]
+            statnaam = stat.id
+            if (statnaam == naam):
+                print("Gevonde")
+                return stat
+            count+=1
+
+    def check_slots(self, *slots):
+        for stat in self.stations:
+            print(stat.slots)
+
+
 
     def toon_stations(self):
         list = self.stations

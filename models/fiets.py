@@ -5,6 +5,6 @@ class Fiets():
 
     def __repr__(self):
         if(self.in_gebruik == True):
-            return f"deze fiets is in gebruik door {self.gebruiker},{self.in_gebruik}"
+            return f"deze fiets is in gebruik door {self.gebruiker}"
         else:
-            return f"deze fiets is niet in gebruik {self.in_gebruik}"
+            return f"deze fiets is niet in gebruik"

@@ -21,8 +21,8 @@ class Station():
     def voeg_fiets_toe(self, slot):
         locatie = f"{self.straatnaam}, {self.postcode}, {self.district} in station: {slot}" 
         self.fietsen.append(fiets.Fiets("fietstransporteur", False))
-        return self.fietsen
         #logger.Logger().log_to_file(str("fietstransporteur heeft de fiets succesvol toegevoegd op locatie: " + str(locatie)))
+        return self.fietsen
 
     def voeg_één_fiets_toe(self, gebruiker, slot):
         self.fietsen.append(fiets.Fiets(gebruiker, "in gebruik"))
@@ -51,15 +51,50 @@ class Station():
             count+=1
         return list
     
-    def geef_fiets(self):
+    def geef_fiets(self, gebr):
+        list_slots = self.slots
+        list_fietsen = self.fietsen
+        count = 0
+        for key in list_slots:
+            slo = list_slots[count]
+            if(slo.bezet == True):
+                list_slots.pop(count)
+                list_slots.insert(count, slot.Slot(self.id, count, False))
+                # for f in list_fietsen:
+                #     fie = list_fietsen[count]
+                #     list_fietsen.pop(count)
+                #     list_fietsen.insert(count, fiets.Fiets(gebr, True))
+                #     print(fie)
+                #     return fie
+                return slo
+            count+=1
+
+    def geef_fietsen(self, gebr):
+        list = self.fietsen
+        count = 0
+        for key in list:
+            fie = list[count]
+            if(fie.in_gebruik == False):
+                list.pop(count)
+                list.insert(count, fiets.Fiets(gebr, True))
+                print(fie)
+                return fie
+            count+=1
+
+    def voeg_plaats_toe(self, nummer):
         list = self.slots
         count = 0
         for key in list:
             slo = list[count]
-            if(slo.bezet == True):
-                list.pop(count)
-                list.insert(count, slot.Slot(self.id, count, False))
-                return slo
+            if(slo.nummer == int(nummer)):
+                if(slo.bezet == False):
+                   list.pop(count)
+                   list.insert(count, slot.Slot(self.id, count,True))
+                   print(slo)
+                   return slo
+                else:
+                    print("Dit slot bevat al een fiets")
+                    return "Dit slot bevat al een fiets"
             count+=1
 
     def __str__(self):

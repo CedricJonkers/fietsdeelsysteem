@@ -26,7 +26,8 @@ option_menu = {
     3: 'check slots',
     4: 'neem fiets',
     5: 'voeg fiets toe',
-    6: 'exit'
+    6: 'exit',
+    7: 'check fietsen'
 }
 
 
@@ -58,8 +59,14 @@ while(True):
     elif option == 3:
         stat = input('Geef je station: ')
         mijn_station = mijn_app.stations.zoek_op_id(stat)
+        #print(mijn_station.check_fiets())
+        print(mijn_station.check_slot())
+        #list_s = mijn_app.stations.check_slots()
+    elif option == 7:
+        stat = input('Geef je station: ')
+        mijn_station = mijn_app.stations.zoek_op_id(stat)
+        #print(mijn_station.check_fiets())
         print(mijn_station.check_fiets())
-        #print(mijn_station.check_slot())
         #list_s = mijn_app.stations.check_slots()
         
     elif option == 4:
@@ -69,7 +76,8 @@ while(True):
           stat = input('Geef je station: ')
           mijn_station = mijn_app.stations.zoek_op_id(stat)
           print(mijn_station)
-          print(mijn_station.geef_fiets())
+          #print(mijn_station.geef_fiets())
+          print(mijn_station.geef_fiets(naam))
           #mijn_app.station.neem_fiets(naam)
         else:
           print("Naam bestaat niet")
@@ -81,7 +89,8 @@ while(True):
           stat = input('Geef je station: ')
           mijn_station = mijn_app.stations.zoek_op_id(stat)
           slot = input('Geef het slot nummer')
-          mijn_station.voeg_één_fiets_toe(gebr, slot)
+          mijn_station.voeg_plaats_toe(slot)
+          #mijn_station.voeg_één_fiets_toe(gebr, slot)
         else:
           print("Naam bestaat niet")
         #mijn_station = mijn_app.stations.zoek_op_postcode(stat)

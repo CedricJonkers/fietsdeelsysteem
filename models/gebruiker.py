@@ -1,4 +1,5 @@
 import names as names
+import json
 
 class Gebruiker():
     def __init__(self, achternaam, voornaam):
@@ -11,23 +12,21 @@ class Gebruiker():
 class Gebruikers():
     def __init__(self):
         self.gebruikers = []
-    
-    def generate_gebruikers(self):
-        try:
-            output_bestand = open("dataset\gebruikers.txt", "w")
-        except IOError:
-            print("Er was een probleem met het schrijven naar het bestand.")
-            quit()
 
+    def generate_gebruikers(self):
+        data = []
         try:
             for i in range(100):
                 voornaam = names.get_first_name()
                 achternaam = names.get_last_name()
                 gebruiker = Gebruiker(achternaam,voornaam)
-                fullname = achternaam + "," + voornaam + "\n"
                 self.gebruikers.append(gebruiker)
-                output_bestand.write(fullname)
-            output_bestand.close()
+                data.append({
+                    'achternaam': achternaam,
+                    'voornaam': voornaam,
+                    })
+                with open("dataset\gebruikers.json", 'w') as outfile:
+                    json.dump(data, outfile)
             return self.gebruikers
         except:
             print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")
@@ -38,6 +37,8 @@ class Gebruikers():
         for key in list:
             gebr = list[count]
             gebruiker_full_name = gebr.achternaam +" "+ gebr.voornaam
+            print(gebruiker_full_name)
+            print(naam)
             if (gebruiker_full_name == naam):
                 print("Gevonde")
                 return gebr

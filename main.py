@@ -8,7 +8,7 @@ import to_html
 class App():
     def __init__(self):
         self.gebruikers_list = gebruiker.Gebruikers()
-        self.station = station.Station(0, 0)
+        self.station = station.Station(0, "Baron Sadoinestraat (2660)","",0,0,0)
         self.stations = station.Stations()
         self.station_data = self.stations.read_stations()
         self.gebruikers_data = self.gebruikers_list.generate_gebruikers()
@@ -18,14 +18,15 @@ mijn_app = App()
 # list_g = mijn_app.gebruikers_list.toon_gebruikers()
 # list_s = mijn_app.stations.toon_stations()
 # mijn_app.stations.add_slots_bikes()
-# mijn_app.stations.check_slots(mijn_app.stations.add_slots_bikes())
+mijn_app.stations.add_slots_bikes()
 
 option_menu = {
     1: 'Toon gebruikers',
     2: 'Toon stations',
     3: 'check slots',
-    4: 'voeg fiets toe',
-    5: 'exit'
+    4: 'neem fiets',
+    5: 'voeg fiets toe',
+    6: 'exit'
 }
 
 
@@ -55,16 +56,31 @@ while(True):
         list_s = mijn_app.stations.toon_stations()
 
     elif option == 3:
-        mijn_app.stations.check_slots(mijn_app.stations.add_slots_bikes())
-
-    elif option == 4:
-        gebr = input('Geef je naam: ')
-        mijn_app.gebruikers_list.zoek_op_naam(gebr)
         stat = input('Geef je station: ')
-        mijn_station = mijn_app.stations.zoek_op_naam(stat)
-        mijn_station.voeg_één_fiets_toe(gebr)
+        mijn_station = mijn_app.stations.zoek_op_id(stat)
+        print(mijn_station.check_slot())
+        #list_s = mijn_app.stations.check_slots()
+        
+    elif option == 4:
+        # stat = input('Geef je station: ')
+        # mijn_station = mijn_app.stations.zoek_op_id(stat)
+        # print(mijn_station.geef_fiets())
+        naam = input('Geef je naam: ')
+        mijn_app.station.neem_fiets(naam)
 
     elif option == 5:
+        gebr = input('Geef je naam: ')
+        mijn_app.gebruikers_list.zoek_op_naam(gebr)
+        if(mijn_app.gebruikers_list.zoek_op_naam(gebr) != None):
+          stat = input('Geef je station: ')
+          mijn_station = mijn_app.stations.zoek_op_id(stat)
+          slot = input('Geef het slot nummer')
+          mijn_station.voeg_één_fiets_toe(gebr, slot)
+        else:
+          print("Naam bestaat niet")
+        #mijn_station = mijn_app.stations.zoek_op_postcode(stat)
+
+    elif option == 6:
         print("Exit code....")
         exit()
     else:

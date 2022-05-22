@@ -29,10 +29,6 @@ class Station():
         logger.Logger().log_to_file(str(gebruiker +" heeft de fiets succesvol toegevoegd op locatie: " + str(locatie)))
         for s in self.fietsen:
             print(len(self.fietsen))
-    
-    def neem_fiets(self, gebr):
-        if (gebruiker.Gebruikers().zoek_op_naam(gebr) != None):
-            print(gebruiker.Gebruikers().zoek_op_naam(gebr))
 
     def voeg_slot_toe(self, nummer, bezet):
         self.slots.append(slot.Slot(self.id, nummer, bezet))
@@ -64,7 +60,6 @@ class Station():
 class Stations():
     def __init__(self):
         self.stations = []
-        #self.slots = []
 
     def read_stations(self):
         fileObject = open(r"dataset\velo_data.json", "r")

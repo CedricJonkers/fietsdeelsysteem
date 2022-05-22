@@ -37,10 +37,8 @@ class Gebruikers():
         for key in list:
             gebr = list[count]
             gebruiker_full_name = gebr.achternaam +" "+ gebr.voornaam
-            print(gebruiker_full_name)
-            print(naam)
             if (gebruiker_full_name == naam):
-                print("Gevonde")
+                print("Gebruiker gevonden")
                 return gebr
             count+=1
 

@@ -62,11 +62,16 @@ while(True):
         #list_s = mijn_app.stations.check_slots()
         
     elif option == 4:
-        # stat = input('Geef je station: ')
-        # mijn_station = mijn_app.stations.zoek_op_id(stat)
-        # print(mijn_station.geef_fiets())
         naam = input('Geef je naam: ')
-        mijn_app.station.neem_fiets(naam)
+        mijn_app.gebruikers_list.zoek_op_naam(naam)
+        if(mijn_app.gebruikers_list.zoek_op_naam(naam) != None):
+          stat = input('Geef je station: ')
+          mijn_station = mijn_app.stations.zoek_op_id(stat)
+          print(mijn_station)
+          print(mijn_station.geef_fiets())
+          #mijn_app.station.neem_fiets(naam)
+        else:
+          print("Naam bestaat niet")
 
     elif option == 5:
         gebr = input('Geef je naam: ')

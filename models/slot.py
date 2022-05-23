@@ -6,7 +6,7 @@ class Slot():
 
     def __repr__(self):
         if(self.bezet == True):
-            return f"{self.nummer} bezit een fiets"
+            return f"Slot: {self.nummer} bezit een fiets"
         else:
-            return f"{self.nummer} bezit geen fiets"
+            return f"Slot: {self.nummer} bezit geen fiets"
         

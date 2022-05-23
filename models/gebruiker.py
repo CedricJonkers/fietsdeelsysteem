@@ -3,11 +3,12 @@ import json
 
 class Gebruiker():
     def __init__(self, achternaam, voornaam):
+        self.functie = self.__class__.__name__.lower()
         self.achternaam = achternaam
         self.voornaam = voornaam
 
     def __repr__(self):
-        return f"{self.achternaam} {self.voornaam}"
+        return f"{self.functie}: {self.achternaam} {self.voornaam}"
 
 class Gebruikers():
     def __init__(self):
@@ -24,6 +25,7 @@ class Gebruikers():
                 data.append({
                     'achternaam': achternaam,
                     'voornaam': voornaam,
+                    'functie': gebruiker.functie
                     })
                 with open("dataset\gebruikers.json", 'w') as outfile:
                     json.dump(data, outfile)

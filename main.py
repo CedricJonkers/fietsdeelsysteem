@@ -31,7 +31,8 @@ option_menu = {
     6: 'check fietsen',
     7: 'verplaats fietsen',
     8: 'generate html',
-    9: 'exit'
+    9: 'save',
+    10: 'exit'
 }
 
 sub_option_menu = {
@@ -136,6 +137,11 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
+        mijn_app.gebruikers_list.save_gebruikers()
+        mijn_app.fietstransporteurs_list.save_fietstransporteurs()
+        mijn_app.stations.save_stations()
+
+    elif option == 10:
         print("Exit code....")
         exit()
     else:

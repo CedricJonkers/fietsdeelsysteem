@@ -121,11 +121,20 @@ class Stations():
 
     def save_stations(self):
         data = []
+        data_s = []
         list = self.stations
         count = 0
+        count_slot = 0
         try:
             for key in list:
                 stat = list[count]
+                for s in stat.slots:
+                    data_s.append({
+                        'slot': {
+                            'id': s.nummer,
+                            'bezet': s.bezet
+                        }
+                    })
                 data.append({
                     'properties': {
                         'OBJECTID': stat.id,
@@ -135,13 +144,23 @@ class Stations():
                         'Objectcode': stat.objectcode,
                         'Aantal_plaatsen': stat.aantal_slots,
                     },
-                    'slot_info': {
-                        "str({stat.slots[1].id})": stat.slots[1].bezet
-                    }
+                    'slots': data_s
+                    # 'Slots': {
+                    #     'id': ['i.nummer' for i in stat.slots],
+                    #     'is_bezet': [i.bezet for i in stat.slots]
+                    # }
                 })
+                # for s in stat.slots:
+                #     data_s.append({
+                #         'slot': {
+                #             'id': s.nummer,
+                #             'bezet': s.bezet
+                #         }
+                #     })
+                #print(data_s)
                 count += 1
             with open("dataset_save\stations.json", 'w') as outfile:
-                json.dump(data, outfile)
+                json.dump(data, outfile, indent=4)
         except:
             print(
                 "Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")

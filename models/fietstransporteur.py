@@ -50,7 +50,7 @@ class Fietstransporteurs():
                     })
                 count+=1
             with open(r"dataset_save\fietstransporteurs.json", 'w') as outfile:
-                json.dump(data, outfile)
+                json.dump(data, outfile, indent=4)
         except:
             print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")
 

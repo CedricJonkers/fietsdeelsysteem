@@ -1,0 +1,4019 @@
+[
+    {
+        "properties": {
+            "OBJECTID": 230523,
+            "Straatnaam": "GODEFRIDUSKAAI",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000129",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230524,
+            "Straatnaam": "Koningin Astridplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000002",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230525,
+            "Straatnaam": "Meir",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000026",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230526,
+            "Straatnaam": "Eiermarkt",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000019",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230527,
+            "Straatnaam": "Groenkerkhofstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000020",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230528,
+            "Straatnaam": "Cockerillkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000035",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230529,
+            "Straatnaam": "PALEISSTRAAT",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000094",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230530,
+            "Straatnaam": "Singel",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000012",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230531,
+            "Straatnaam": "Lange Nieuwstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000027",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230532,
+            "Straatnaam": "Belgi\u00c3\u00ablei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000044",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230533,
+            "Straatnaam": "Mercatorstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000006",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230534,
+            "Straatnaam": "Van der Meydenstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000111",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230535,
+            "Straatnaam": "Lange Stuivenbergstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000101",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230536,
+            "Straatnaam": "Schijnpoortweg",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000120",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230537,
+            "Straatnaam": "August Vermeylenlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000144",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230538,
+            "Straatnaam": "August Vermeylenlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000145",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230539,
+            "Straatnaam": "Beatrijslaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000153",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230540,
+            "Straatnaam": "Blancefloerlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000152",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230541,
+            "Straatnaam": "Blancefloerlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000149",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230542,
+            "Straatnaam": "Esmoreitlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000142",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230543,
+            "Straatnaam": "Frederik van Eedenplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000148",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230544,
+            "Straatnaam": "Gloriantlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000143",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230545,
+            "Straatnaam": "Gloriantlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000141",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230546,
+            "Straatnaam": "Thonetlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000140",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230547,
+            "Straatnaam": "Halewijnlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000147",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230548,
+            "Straatnaam": "Reinaartlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000146",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230549,
+            "Straatnaam": "Waterhoenlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000150",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230550,
+            "Straatnaam": "Amsterdamstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000138",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230551,
+            "Straatnaam": "Londenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000139",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230552,
+            "Straatnaam": "Sint-Laureiskaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000137",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230553,
+            "Straatnaam": "Wisselstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000060",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230554,
+            "Straatnaam": "Itali\u00c3\u00ablei",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000127",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230555,
+            "Straatnaam": "Jan Van Rijswijcklaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000014",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230556,
+            "Straatnaam": "Sint-Paulusstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000050",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230557,
+            "Straatnaam": "Oudevaartplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000077",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230558,
+            "Straatnaam": "Amerikalei",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000080",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230559,
+            "Straatnaam": "Desguinlei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000040",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230560,
+            "Straatnaam": "Duinstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000102",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230561,
+            "Straatnaam": "Lange Dijkstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000126",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230562,
+            "Straatnaam": "Nationalestraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000076",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230563,
+            "Straatnaam": "Belgi\u00c3\u00ablei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000043",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230564,
+            "Straatnaam": "Burgemeester E. Ryckaertsplein",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000008",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230565,
+            "Straatnaam": "Uitbreidingstraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000112",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230566,
+            "Straatnaam": "Karel Rogierstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000016",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230567,
+            "Straatnaam": "Fonteinstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000069",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230568,
+            "Straatnaam": "Blancefloerlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000151",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230569,
+            "Straatnaam": "De Keyserlei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000024",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230570,
+            "Straatnaam": "Grotesteenweg",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000046",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230571,
+            "Straatnaam": "Boomgaardstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000047",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230572,
+            "Straatnaam": "Provinciestraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000119",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230573,
+            "Straatnaam": "Van Kerckhovenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000125",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230574,
+            "Straatnaam": "Mutsaardstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000051",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230575,
+            "Straatnaam": "Fransenplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000041",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230576,
+            "Straatnaam": "Vredestraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000055",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230577,
+            "Straatnaam": "Kievitplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000003",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230578,
+            "Straatnaam": "Dageraadplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000110",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230579,
+            "Straatnaam": "Statiestraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000061",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230580,
+            "Straatnaam": "Grotesteenweg",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000021",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230581,
+            "Straatnaam": "Statiestraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000022",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230582,
+            "Straatnaam": "Laar",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000030",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230583,
+            "Straatnaam": "Betogingstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000039",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230584,
+            "Straatnaam": "Krugerplein",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000108",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230585,
+            "Straatnaam": "De Keyserlei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000004",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230586,
+            "Straatnaam": "Keizerstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000028",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230587,
+            "Straatnaam": "Lamorini\u00c3\u00a8restraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000130",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230588,
+            "Straatnaam": "Sint-Vincentiusstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000093",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230589,
+            "Straatnaam": "Van Schoonbekestraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000089",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230590,
+            "Straatnaam": "Boudewijnsstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000085",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230591,
+            "Straatnaam": "Rubenslei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000096",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230592,
+            "Straatnaam": "Plantinkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000065",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230593,
+            "Straatnaam": "Groenplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000017",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230594,
+            "Straatnaam": "Pieter van Hobokenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000054",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230595,
+            "Straatnaam": "Trapstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000118",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230596,
+            "Straatnaam": "Stuivenbergplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000121",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230597,
+            "Straatnaam": "Binnensingel",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000103",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230598,
+            "Straatnaam": "Karel Oomsstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000031",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230599,
+            "Straatnaam": "De Wittestraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000131",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230600,
+            "Straatnaam": "Frans Van Hombeeckplein",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000100",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230601,
+            "Straatnaam": "Generaal Lemanstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000099",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230602,
+            "Straatnaam": "Desguinlei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000010",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230603,
+            "Straatnaam": "Boomgaardstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000098",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230604,
+            "Straatnaam": "Lange Elzenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000087",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230605,
+            "Straatnaam": "Burgemeester E. Ryckaertsplein",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000007",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230606,
+            "Straatnaam": "Vandenpeereboomstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000009",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230607,
+            "Straatnaam": "Van Trierstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000088",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230608,
+            "Straatnaam": "Lange Lozanastraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000029",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230609,
+            "Straatnaam": "Mechelsesteenweg",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000042",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230610,
+            "Straatnaam": "Stanleystraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000097",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230611,
+            "Straatnaam": "Troonplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000086",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230612,
+            "Straatnaam": "Mechelsesteenweg",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000092",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230613,
+            "Straatnaam": "Vinkenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000090",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230614,
+            "Straatnaam": "Bolivarplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000081",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230615,
+            "Straatnaam": "Draakplaats",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000106",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230616,
+            "Straatnaam": "Amerikalei",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000083",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230617,
+            "Straatnaam": "Beeldhouwersstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000015",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230618,
+            "Straatnaam": "Provinciestraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000104",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230619,
+            "Straatnaam": "Waalsekaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000082",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230620,
+            "Straatnaam": "Mechelsesteenweg",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000091",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230621,
+            "Straatnaam": "Lange Van Ruusbroecstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000105",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230622,
+            "Straatnaam": "Britselei",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000078",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230623,
+            "Straatnaam": "Vlaamsekaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000075",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230624,
+            "Straatnaam": "Van Eycklei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000116",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230625,
+            "Straatnaam": "Waalsekaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000034",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230626,
+            "Straatnaam": "Britselei",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000079",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230627,
+            "Straatnaam": "Maarschalk Montgomeryplein",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000132",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230628,
+            "Straatnaam": "Kronenburgstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000072",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230629,
+            "Straatnaam": "Kloosterstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000074",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230630,
+            "Straatnaam": "Kievitplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000005",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230631,
+            "Straatnaam": "Lange Gasthuisstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000084",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230632,
+            "Straatnaam": "Moorkensplein",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000107",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230633,
+            "Straatnaam": "Tabakvest",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000037",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230634,
+            "Straatnaam": "Quinten Matsijslei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000095",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230635,
+            "Straatnaam": "Sint-Andriesplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000070",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230636,
+            "Straatnaam": "Sint-Michielskaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000071",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230637,
+            "Straatnaam": "Oudaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000067",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230638,
+            "Straatnaam": "Schuttershofstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000036",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230639,
+            "Straatnaam": "Wapper",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000023",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230640,
+            "Straatnaam": "Drukkerijstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000066",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230641,
+            "Straatnaam": "Koningin Astridplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000001",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230642,
+            "Straatnaam": "Meir",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000018",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230643,
+            "Straatnaam": "Leysstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000025",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230644,
+            "Straatnaam": "Kerkstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000109",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230645,
+            "Straatnaam": "Vercammenstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000113",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230646,
+            "Straatnaam": "Plantinkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000064",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230647,
+            "Straatnaam": "Osystraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000011",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230648,
+            "Straatnaam": "Ernest Van Dijckkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000059",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230649,
+            "Straatnaam": "Wolstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000057",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230650,
+            "Straatnaam": "De Coninckplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000032",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230651,
+            "Straatnaam": "Pesthofstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000114",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230652,
+            "Straatnaam": "Minderbroedersrui",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000056",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230653,
+            "Straatnaam": "Sint-Elisabethstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000115",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230654,
+            "Straatnaam": "Jordaenskaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000058",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230655,
+            "Straatnaam": "Paardenmarkt",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000053",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230656,
+            "Straatnaam": "Pothoekstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000122",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230657,
+            "Straatnaam": "Sint-Jansplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000117",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230658,
+            "Straatnaam": "Entrepotkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000052",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230659,
+            "Straatnaam": "Sint-Pietersvliet",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000049",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230660,
+            "Straatnaam": "Hessenplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000033",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230661,
+            "Straatnaam": "Sint-Aldegondiskaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000135",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230662,
+            "Straatnaam": "Oudeleeuwenrui",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000045",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230663,
+            "Straatnaam": "Godefriduskaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000134",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230664,
+            "Straatnaam": "Vis\u00c3\u00a9straat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000123",
+            "Aantal_plaatsen": 18
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230665,
+            "Straatnaam": "Entrepotplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000133",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230666,
+            "Straatnaam": "Ellermanstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000124",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230667,
+            "Straatnaam": "Turnhoutsebaan",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000068",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230668,
+            "Straatnaam": "Lange Lobroekstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000062",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230669,
+            "Straatnaam": "Lange Lobroekstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000063",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230670,
+            "Straatnaam": "Pastorijstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000038",
+            "Aantal_plaatsen": 21
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230671,
+            "Straatnaam": "Maarschalk G\u00c3\u00a9rardstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000073",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230672,
+            "Straatnaam": "Jan Van Rijswijcklaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000013",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230673,
+            "Straatnaam": "De Keyserlei",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000048",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230674,
+            "Straatnaam": "Hardenvoort",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000136",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230675,
+            "Straatnaam": "Terloplein",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000154",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230676,
+            "Straatnaam": "Statielei",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000155",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230677,
+            "Straatnaam": "Binnensingel",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000157",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230678,
+            "Straatnaam": "Zuidervelodroom",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000158",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230679,
+            "Straatnaam": "Boudewijnssteeg",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000159",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230680,
+            "Straatnaam": "Brusselstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000160",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230681,
+            "Straatnaam": "Havanastraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000201",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230682,
+            "Straatnaam": "Columbiastraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000203",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230683,
+            "Straatnaam": "Noorderlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000204",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230684,
+            "Straatnaam": "Groenendaallaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000205",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230685,
+            "Straatnaam": "Bermstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000206",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230686,
+            "Straatnaam": "Van Praetlei",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000207",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230687,
+            "Straatnaam": "Ringlaan",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000208",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230688,
+            "Straatnaam": "Korte Bremstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000209",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230689,
+            "Straatnaam": "Maantjessteenweg",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000210",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230690,
+            "Straatnaam": "Rodeloopstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000211",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230691,
+            "Straatnaam": "Rodeloopstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000212",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230692,
+            "Straatnaam": "Kroonplein",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000213",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230693,
+            "Straatnaam": "Lambrechtshoekenlaan",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000214",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230694,
+            "Straatnaam": "Nieuwdreef",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000215",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230695,
+            "Straatnaam": "Van Heybeeckstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000216",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230696,
+            "Straatnaam": "Bredabaan",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000217",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230697,
+            "Straatnaam": "Ullenshofstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000218",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230698,
+            "Straatnaam": "Borrewaterstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000219",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230699,
+            "Straatnaam": "Sint-Bartholomeusstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000220",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230700,
+            "Straatnaam": "Binnenvaartstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000222",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230701,
+            "Straatnaam": "Rijnkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000223",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230702,
+            "Straatnaam": "Indi\u00c3\u00abstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000224",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230703,
+            "Straatnaam": "Verbindingsdok-Oostkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000225",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230704,
+            "Straatnaam": "Noordschippersdok",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000226",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230705,
+            "Straatnaam": "Van Cortbeemdelei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000227",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230706,
+            "Straatnaam": "Van Deynsestraat",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000228",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230707,
+            "Straatnaam": "Jozef Nellenslei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000229",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230708,
+            "Straatnaam": "Sint-Fredegandusstraat",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000230",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230709,
+            "Straatnaam": "Gallifortlei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000231",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230710,
+            "Straatnaam": "Wim Saerensplein",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000232",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230711,
+            "Straatnaam": "Gallifortlei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000233",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230712,
+            "Straatnaam": "Jan Brochovenstraat",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000234",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230713,
+            "Straatnaam": "Cogelsplein",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000235",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230714,
+            "Straatnaam": "Maurice Dequeeckerplein",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000236",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230715,
+            "Straatnaam": "Ter Rivierenlaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000237",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230716,
+            "Straatnaam": "Ertbruggelaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000238",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230717,
+            "Straatnaam": "Ruggeveldlaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000239",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230718,
+            "Straatnaam": "Ruggeveldlaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000240",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230719,
+            "Straatnaam": "Collegelaan",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000241",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230720,
+            "Straatnaam": "Luitenant Lippenslaan",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000242",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230721,
+            "Straatnaam": "Herentalsebaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000243",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230722,
+            "Straatnaam": "Herentalsebaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000244",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230723,
+            "Straatnaam": "Florent Pauwelslei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000245",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230724,
+            "Straatnaam": "Arenaplein",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000246",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230725,
+            "Straatnaam": "Luitenant Lippenslaan",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000247",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230726,
+            "Straatnaam": "Berchemlei",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000248",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230727,
+            "Straatnaam": "Frans De Vriendtstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000249",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230728,
+            "Straatnaam": "Diksmuidelaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000250",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230729,
+            "Straatnaam": "Arthur Matthyslaan",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000251",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230730,
+            "Straatnaam": "Karel De Preterlei",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000252",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230731,
+            "Straatnaam": "Vosstraat",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000253",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230732,
+            "Straatnaam": "Boekenberglei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000254",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230733,
+            "Straatnaam": "Van den Hautelei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000255",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230734,
+            "Straatnaam": "Helderstraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000256",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230735,
+            "Straatnaam": "Hofstadestraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000257",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230736,
+            "Straatnaam": "Lodewijk Van Berckenlaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000258",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230737,
+            "Straatnaam": "Posthofbrug",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000259",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230738,
+            "Straatnaam": "Hof ter Schriecklaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000260",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230739,
+            "Straatnaam": "Henri Prostlaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000261",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230740,
+            "Straatnaam": "Rooi",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000262",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230741,
+            "Straatnaam": "Fruithoflaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000263",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230742,
+            "Straatnaam": "Filip Williotstraat",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000264",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230743,
+            "Straatnaam": "Pulhoflaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000265",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230744,
+            "Straatnaam": "Fruithoflaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000266",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230745,
+            "Straatnaam": "Prins Leopoldlaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000267",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230746,
+            "Straatnaam": "Lindendreef",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000268",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230747,
+            "Straatnaam": "Troyentenhoflaan",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000269",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230748,
+            "Straatnaam": "Eglantierlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000270",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230749,
+            "Straatnaam": "Beukenlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000271",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230750,
+            "Straatnaam": "Groenenborgerlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000272",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230751,
+            "Straatnaam": "Oosterveldlaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000273",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230752,
+            "Straatnaam": "Bist",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000274",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230753,
+            "Straatnaam": "Groenenborgerlaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000275",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230754,
+            "Straatnaam": "Kruishofstraat",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000276",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230755,
+            "Straatnaam": "Ahornenlaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000277",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230756,
+            "Straatnaam": "Oversneslaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000278",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230757,
+            "Straatnaam": "Doornstraat",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000279",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230758,
+            "Straatnaam": "Bosheidelaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000280",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230759,
+            "Straatnaam": "Hof Van Tichelen",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000281",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230760,
+            "Straatnaam": "Letterkundestraat",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000282",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230761,
+            "Straatnaam": "Hollebeekstraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000283",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230762,
+            "Straatnaam": "Steynstraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000284",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230763,
+            "Straatnaam": "Berkenrodelei",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000286",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230764,
+            "Straatnaam": "Berkenrodelei",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000287",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230765,
+            "Straatnaam": "Draaiboomstraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000288",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230766,
+            "Straatnaam": "Walstraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000289",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230767,
+            "Straatnaam": "Sint-Bernardsesteenweg",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000290",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230768,
+            "Straatnaam": "Maurits Sabbelaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000291",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230769,
+            "Straatnaam": "Jacob le Mairestraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000292",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230770,
+            "Straatnaam": "Pol de Montstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000293",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230771,
+            "Straatnaam": "Valerius De Saedeleerstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000294",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230772,
+            "Straatnaam": "Emiel Vloorsstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000295",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230773,
+            "Straatnaam": "Eric Sasselaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000296",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230774,
+            "Straatnaam": "Jan De Voslei",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000297",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230775,
+            "Straatnaam": "Valkstraat",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000298",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230776,
+            "Straatnaam": "Camille Huysmanslaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000299",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230777,
+            "Straatnaam": "Vogelzanglaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2020",
+            "Objectcode": "VE_0000300",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230778,
+            "Straatnaam": "Luchthavenlei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000301",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230779,
+            "Straatnaam": "Rozenkransplein",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000302",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230780,
+            "Straatnaam": "Commandant Weynsstraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000285",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230781,
+            "Straatnaam": "Mexicostraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000221",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230782,
+            "Straatnaam": "Kambalastraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000303",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230783,
+            "Straatnaam": "Campiniastraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000304",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230784,
+            "Straatnaam": "Van Kerckhovenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000156",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230785,
+            "Straatnaam": "Lange Leemstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000161",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230786,
+            "Straatnaam": "Ter Nieuwerbrugge",
+            "District": "BERCHEM",
+            "Postcode": "2600",
+            "Objectcode": "VE_0000305",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230787,
+            "Straatnaam": "Baron Sadoinestraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000307",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230788,
+            "Straatnaam": "Majoor Maelfaitplein",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000308",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230789,
+            "Straatnaam": "Paul Henri Spaaklaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000309",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230790,
+            "Straatnaam": "Krijgsbaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000310",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230791,
+            "Straatnaam": "Cockerillplaats",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000311",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230792,
+            "Straatnaam": "Graspolderlaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000312",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230793,
+            "Straatnaam": "Sint Bernaardsestwg",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000314",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230794,
+            "Straatnaam": "Den Brem",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000320",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230795,
+            "Straatnaam": "Galgenweellaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000163",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230796,
+            "Straatnaam": "Ganzemate",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000317",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230797,
+            "Straatnaam": "Dokter Emiel Van Dammestraat",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000316",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230798,
+            "Straatnaam": "Malisgoed",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000322",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230799,
+            "Straatnaam": "Monnikenplein",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000321",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230800,
+            "Straatnaam": "Blancefloerlaan",
+            "District": "ANTWERPEN",
+            "Postcode": "2050",
+            "Objectcode": "VE_0000162",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230801,
+            "Straatnaam": "Paul Vekemanslaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000325",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230802,
+            "Straatnaam": "Krugerbrug",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000326",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230803,
+            "Straatnaam": "Ridderveld",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000327",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230804,
+            "Straatnaam": "Schotensesteenweg",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000328",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230805,
+            "Straatnaam": "Oosterveldlaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000323",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230806,
+            "Straatnaam": "Dordrechtlaan",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000324",
+            "Aantal_plaatsen": 24
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230807,
+            "Straatnaam": "Prosper de Witstraat",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000329",
+            "Aantal_plaatsen": 27
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230808,
+            "Straatnaam": "Meerlenhoflaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000330",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230809,
+            "Straatnaam": "Zaatlaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000331",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230810,
+            "Straatnaam": "Michel Geysemansstraat",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000332",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230811,
+            "Straatnaam": "Frans Adriaenssensstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000333",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230812,
+            "Straatnaam": "Speelpleinstraat",
+            "District": "MERKSEM",
+            "Postcode": "2170",
+            "Objectcode": "VE_0000335",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230813,
+            "Straatnaam": "Dokter Donnyplein",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000340",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230814,
+            "Straatnaam": "August Van de Wielelei",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000334",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230815,
+            "Straatnaam": "Sneeuwbeslaan",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000336",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230816,
+            "Straatnaam": "Verenigde Natieslaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000337",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230817,
+            "Straatnaam": "Leo Bosschartlaan",
+            "District": "HOBOKEN",
+            "Postcode": "2660",
+            "Objectcode": "VE_0000339",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230818,
+            "Straatnaam": "Eksterlaar",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000313",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230819,
+            "Straatnaam": "Eksterlaar",
+            "District": "DEURNE",
+            "Postcode": "2100",
+            "Objectcode": "VE_0000315",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230820,
+            "Straatnaam": "Schaliemolenstraat",
+            "District": "WILRIJK",
+            "Postcode": "2610",
+            "Objectcode": "VE_0000319",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230821,
+            "Straatnaam": "Kempenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000341",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230822,
+            "Straatnaam": "Jos Smolderenstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000342",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230823,
+            "Straatnaam": "Ellermanstraat",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000164",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230824,
+            "Straatnaam": "Itali\u00c3\u00ablei",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000167",
+            "Aantal_plaatsen": 30
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230825,
+            "Straatnaam": "Schoenmarkt",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000166",
+            "Aantal_plaatsen": 33
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230826,
+            "Straatnaam": "Koningin Astridplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000171",
+            "Aantal_plaatsen": 12
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230827,
+            "Straatnaam": "Paardenmarkt",
+            "District": "ANTWERPEN",
+            "Postcode": "2000",
+            "Objectcode": "VE_0000165",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230828,
+            "Straatnaam": "Koningin Astridplein",
+            "District": "ANTWERPEN",
+            "Postcode": "2018",
+            "Objectcode": "VE_0000172",
+            "Aantal_plaatsen": 12
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230829,
+            "Straatnaam": "Noordersingel",
+            "District": "BORGERHOUT",
+            "Postcode": "2140",
+            "Objectcode": "VE_0000306",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": true
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230830,
+            "Straatnaam": "Asiadok-Oostkaai",
+            "District": "ANTWERPEN",
+            "Postcode": "2030",
+            "Objectcode": "VE_0000175",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    },
+    {
+        "properties": {
+            "OBJECTID": 230831,
+            "Straatnaam": "Franklin Rooseveltplaats",
+            "District": "ANTWERPEN",
+            "Postcode": "2060",
+            "Objectcode": "VE_0000173",
+            "Aantal_plaatsen": 36
+        },
+        "slot_info": {
+            "str({stat.slots[1].id})": false
+        }
+    }
+]

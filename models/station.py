@@ -1,3 +1,4 @@
+from re import X
 import models.fiets as fiets
 import models.slot as slot
 import models.fietstransporteur as fietstransporteur
@@ -5,6 +6,8 @@ import logger as logger
 import models.gebruiker as gebruiker
 import random
 import json
+
+from models.tijd import Tijd
 
 
 class Station():
@@ -94,7 +97,7 @@ class Stations():
         self.stations = []
 
     def read_stations(self):
-        fileObject = open(r"dataset\velo_data.json", "r")
+        fileObject = open(r"dataset_default\velo_data.json", "r")
         jsonContent = fileObject.read()
         station_bestand = json.loads(jsonContent)
         id = ""
@@ -116,6 +119,33 @@ class Stations():
             self.stations.append(station)
         return self.stations
 
+    def save_stations(self):
+        data = []
+        list = self.stations
+        count = 0
+        try:
+            for key in list:
+                stat = list[count]
+                data.append({
+                    'properties': {
+                        'OBJECTID': stat.id,
+                        'Straatnaam': stat.straatnaam,
+                        'District': stat.district,
+                        'Postcode': stat.postcode,
+                        'Objectcode': stat.objectcode,
+                        'Aantal_plaatsen': stat.aantal_slots,
+                    },
+                    'slot_info': {
+                        "str({stat.slots[1].id})": stat.slots[1].bezet
+                    }
+                })
+                count += 1
+            with open("dataset_save\stations.json", 'w') as outfile:
+                json.dump(data, outfile)
+        except:
+            print(
+                "Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")
+
     def add_slots_bikes(self, transporteurslist):
         count = 0
         transporteurcount = 0
@@ -127,13 +157,19 @@ class Stations():
             for i in range(s.aantal_slots):
                 x = random.randint(0, 1)
                 if (x == 1):
+                    start_tijd = Tijd.start_tijd()
+                    # print(start_tijd)
                     s.voeg_slot_toe(i, True)
                     s.voeg_fiets_toe(
                         i, count, transporteurslist[transporteurcount])
                     count += 1
+                    stop_tijd = Tijd.stop_tijd()
+                    transporteurslist[transporteurcount].tijd_bezig = Tijd.tijd_op_fiets(
+                        start_tijd, stop_tijd)
+                    #print(Tijd.tijd_op_fiets(start_tijd, stop_tijd))
                 else:
                     s.voeg_slot_toe(i, False)
-    
+
     def zet_fietsen_in_wagen(self, stat_teveel, fietstransporteur):
         return_list = []
         count = 0
@@ -142,20 +178,20 @@ class Stations():
             for i in stat_teveel.fietsen:
                 if(count < aantal_fietsen):
                     print(i.gebruiker)
-                    return_list.append(fiets.Fiets(fietstransporteur, True, i.id))
+                    return_list.append(fiets.Fiets(
+                        fietstransporteur, True, i.id))
                     stat_teveel.fietsen.remove(i)
-                    count+=1
+                    count += 1
         print(return_list)
         return return_list
-    
+
     def zet_fietsen_in_nieuw_station(self, fietsen, stat_teweinig):
         if(stat_teweinig != None):
             if (fietsen != None):
                 for f in fietsen:
-                    stat_teweinig.fietsen.append(f)      
+                    stat_teweinig.fietsen.append(f)
             return stat_teweinig.fietsen
 
-    
     def check_teveel_fietsen(self):
         list = self.stations
         count = 0
@@ -164,7 +200,7 @@ class Stations():
             d = len(stat.slots) - len(stat.fietsen)
             if (d <= round(len(stat.slots)/4)):
                 return stat
-            count += 1 
+            count += 1
 
     def check_teweinig_fietsen(self):
         list = self.stations
@@ -174,7 +210,7 @@ class Stations():
             d = len(stat.slots) - len(stat.fietsen)
             if (d >= round(len(stat.slots)/4)):
                 return stat
-            count += 1 
+            count += 1
 
     def zoek_op_id(self, naam):
         list = self.stations
@@ -187,7 +223,7 @@ class Stations():
                 if (statnaam == int(naam)):
                     return stat
             count += 1
-    
+
     def verwijder_fiets(self, gebr):
         list_station = self.stations
         count_stat = 0
@@ -200,7 +236,7 @@ class Stations():
                     stat.fietsen.remove(f)
                     stat.fietsen.append(fiets.Fiets(gebr, False, f.id))
                     return gebr
-            count_stat+=1
+            count_stat += 1
 
     def check_fiets(self, id):
         list_station = self.stations
@@ -211,7 +247,7 @@ class Stations():
             for f in stat.fietsen:
                 if (f.id == id):
                     return f
-            count_stat+=1
+            count_stat += 1
 
     def zoek_op_postcode(self, postcode):
         list = self.stations

@@ -202,6 +202,17 @@ class Stations():
                     return gebr
             count_stat+=1
 
+    def check_fiets(self, id):
+        list_station = self.stations
+        count_stat = 0
+        for key in list_station:
+            if (count_stat < len(list_station)):
+                stat = list_station[count_stat]
+            for f in stat.fietsen:
+                if (f.id == id):
+                    return f
+            count_stat+=1
+
     def zoek_op_postcode(self, postcode):
         list = self.stations
         returnlist = []

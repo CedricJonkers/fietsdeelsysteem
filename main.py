@@ -34,21 +34,28 @@ option_menu = {
     9: 'exit'
 }
 
+sub_option_menu = {
+    1: 'Fiets',
+    2: 'Gebruiker',
+    3: 'Station'
+}
 
-def print_options():
 
-    for x in range(90):
+def print_options(y, tekst):
+    size = os.get_terminal_size()
+    print(size.columns)
+    for x in range(round(size.columns/2)):
         print("-", end="")
-    print("Welcome to A-velo", end= "")
-    for x in range(90):
+    print(tekst, end= "")
+    for x in range(round(size.columns/2 - len(tekst))):
         print("-", end="")
-    for key in option_menu.keys():
-        print('|',key, '---', option_menu[key])
-    for x in range(197):
+    for key in y.keys():
+        print('|',key, '---', y[key])
+    for x in range(size.columns):
         print("-", end="")
 
 while(True):
-    print_options()
+    print_options(option_menu,"Welcome to A-velo")
     option = ""
 
     try:
@@ -103,15 +110,30 @@ while(True):
         mijn_app.stations.zet_fietsen_in_nieuw_station(fietsen,teweinig)
 
     elif option == 8:
-        stat = input('Geef je station: ')
-        mijn_station = mijn_app.stations.zoek_op_id(stat)
-        print(mijn_station.check_fiets())
-        h = html_writer.htmlWriter()
-        df = pd.DataFrame({'slots':mijn_station.check_slot()})
-        print(df)
-        html_table = h.create_html_table(df)
-        print(html_table)
-        h.create_html_page(html_table, df, mijn_station.id)
+        print_options(sub_option_menu,"Van welk onderdeel wil je een beeld krijgen")
+        option = ""
+        try:
+            option = int(input('\nEnter option: '))
+        except:
+            print("option", option, "\n")
+        if option == 1:
+            fie_id = int(input('Geef je fietsid: '))
+            fie = mijn_app.stations.check_fiets(fie_id)
+            df = pd.DataFrame({'fiets':[fie]})
+            html_table = html_writer.htmlWriter().create_html_table(df)
+            html_writer.htmlWriter().create_html_page(html_table, df, fie.id)
+        elif option == 2:
+                gebr = input('Geef je naam: ')
+                user = mijn_app.gebruikers_list.zoek_op_naam(gebr)
+                df = pd.DataFrame({'gebruiker':[gebr]})
+                html_table = html_writer.htmlWriter().create_html_table(df)
+                html_writer.htmlWriter().create_html_page(html_table, df, user.voornaam)
+        elif option == 3:
+                stat = input('Geef je station: ')
+                mijn_station = mijn_app.stations.zoek_op_id(stat)
+                df = pd.DataFrame({'slots':mijn_station.check_slot()})
+                html_table = html_writer.htmlWriter().create_html_table(df)
+                html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
         print("Exit code....")
@@ -120,5 +142,5 @@ while(True):
         print('invalid option:', option, 'Try again...')
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

@@ -25,7 +25,7 @@ class Gebruikers():
                 data.append({
                     'achternaam': achternaam,
                     'voornaam': voornaam,
-                    'functie': gebruiker.functie
+                    'functie': gebruiker.functie,
                     })
                 with open("dataset\gebruikers.json", 'w') as outfile:
                     json.dump(data, outfile)

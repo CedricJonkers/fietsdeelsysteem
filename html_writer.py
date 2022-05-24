@@ -25,7 +25,7 @@ class htmlWriter():
                         str(x.iloc[i, j])+'</td>'
         return row_data
 
-    def create_html_page(self, html_table, df, station_id):
+    def create_html_page(self, html_table, df, map):
         html_file = '''
 
 <!DOCTYPE html>
@@ -88,7 +88,7 @@ th, td {
 </html>
 
 '''
-        with open(f'_site\{station_id}.html', 'a') as f:
+        with open(f'_site\{map}.html', 'a') as f:
             f.write(html_file)
 
 # <th class = "number_column">'''+df.columns[1]+'''</th>

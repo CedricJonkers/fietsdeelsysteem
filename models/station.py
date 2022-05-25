@@ -129,10 +129,11 @@ class Stations():
             for key in list:
                 stat = list[count]
                 for s in stat.slots:
+                    slo = stat.slots[count_slot]
                     data_s.append({
                         'slot': {
-                            'id': s.nummer,
-                            'bezet': s.bezet
+                            'id': slo.nummer,
+                            'bezet': slo.bezet
                         }
                     })
                 data.append({

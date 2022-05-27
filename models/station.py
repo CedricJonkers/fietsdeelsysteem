@@ -36,8 +36,8 @@ class Station():
         for s in self.fietsen:
             print(len(self.fietsen))
 
-    def voeg_slot_toe(self, nummer, bezet):
-        self.slots.append(slot.Slot(self.id, nummer, bezet))
+    def voeg_slot_toe(self, nummer, bezet, fiets_id):
+        self.slots.append(slot.Slot(self.id, nummer, bezet, fiets_id))
         return self.slots
 
     def check_fiets(self):
@@ -64,7 +64,7 @@ class Station():
             slo = list_slots[count]
             if(slo.bezet == True):
                 list_slots.pop(count)
-                list_slots.insert(count, slot.Slot(self.id, count, False))
+                list_slots.insert(count, slot.Slot(self.id, count, False, None))
                 for f in list_fietsen:
                     fie = list_fietsen[count]
                     list_fietsen.pop(count)
@@ -72,7 +72,7 @@ class Station():
                 return slo
             count += 1
 
-    def voeg_plaats_toe(self, nummer):
+    def voeg_plaats_toe(self, nummer, fiets_id):
         list_slots = self.slots
         count_slot = 0
         for key in list_slots:
@@ -81,7 +81,7 @@ class Station():
                 if(slo.bezet == False):
                     list_slots.pop(count_slot)
                     list_slots.insert(count_slot, slot.Slot(
-                        self.id, count_slot, True))
+                        self.id, count_slot, True, fiets_id))
                     return slo
                 else:
                     print("Dit slot bevat al een fiets")
@@ -117,6 +117,7 @@ class Stations():
             station = Station(id, straatnaam, district, postcode,
                               objectcode, aantal_slots)
             self.stations.append(station)
+            print(station)
         return self.stations
 
     def save_stations(self):
@@ -124,18 +125,11 @@ class Stations():
         data_s = []
         list = self.stations
         count = 0
-        count_slot = 0
         try:
             for key in list:
                 stat = list[count]
-                for s in stat.slots:
-                    slo = stat.slots[count_slot]
-                    data_s.append({
-                        'slot': {
-                            'id': slo.nummer,
-                            'bezet': slo.bezet
-                        }
-                    })
+                print(stat.slots)
+                print(stat.check_slot())
                 data.append({
                     'properties': {
                         'OBJECTID': stat.id,
@@ -145,21 +139,20 @@ class Stations():
                         'Objectcode': stat.objectcode,
                         'Aantal_plaatsen': stat.aantal_slots,
                     },
-                    'slots': data_s
-                    # 'Slots': {
-                    #     'id': ['i.nummer' for i in stat.slots],
-                    #     'is_bezet': [i.bezet for i in stat.slots]
-                    # }
+                    'slots': [data_s]
                 })
-                # for s in stat.slots:
-                #     data_s.append({
-                #         'slot': {
-                #             'id': s.nummer,
-                #             'bezet': s.bezet
-                #         }
-                #     })
-                #print(data_s)
+                print(count)
                 count += 1
+                data_s.clear()
+                for s in stat.slots:
+                    data_s.append({
+                        'slot': {
+                            'id': s.nummer,
+                            'bezet': s.bezet,
+                            'fiets': s.fiets_id
+                        }
+                    })
+                #print(data_s)
             with open("dataset_save\stations.json", 'w') as outfile:
                 json.dump(data, outfile, indent=4)
         except:
@@ -179,7 +172,7 @@ class Stations():
                 if (x == 1):
                     start_tijd = Tijd.start_tijd()
                     # print(start_tijd)
-                    s.voeg_slot_toe(i, True)
+                    s.voeg_slot_toe(i, True, count)
                     s.voeg_fiets_toe(
                         i, count, transporteurslist[transporteurcount])
                     count += 1
@@ -188,7 +181,7 @@ class Stations():
                         start_tijd, stop_tijd)
                     #print(Tijd.tijd_op_fiets(start_tijd, stop_tijd))
                 else:
-                    s.voeg_slot_toe(i, False)
+                    s.voeg_slot_toe(i, False, None)
 
     def zet_fietsen_in_wagen(self, stat_teveel, fietstransporteur):
         return_list = []
@@ -267,6 +260,17 @@ class Stations():
             for f in stat.fietsen:
                 if (f.id == id):
                     return f
+            count_stat += 1
+
+    def check_fiets_gebr(self, naam):
+        list_station = self.stations
+        count_stat = 0
+        for key in list_station:
+            if (count_stat < len(list_station)):
+                stat = list_station[count_stat]
+            for f in stat.fietsen:
+                if (f.gebruiker == naam):
+                    return f.id
             count_stat += 1
 
     def zoek_op_postcode(self, postcode):

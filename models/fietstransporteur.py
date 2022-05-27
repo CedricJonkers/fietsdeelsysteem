@@ -8,6 +8,7 @@ import json
 class Fietstransporteur(Gebruiker):
     def __init__(self, achternaam, voornaam, tijd_bezig):
         super().__init__(achternaam, voornaam, tijd_bezig)
+        self.fietsen = []
 
 
 

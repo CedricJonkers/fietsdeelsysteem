@@ -108,8 +108,12 @@ while(True):
         transporteur = mijn_app.fietstransporteurs_list.zoek_op_naam(naam)
         teveel = mijn_app.stations.check_teveel_fietsen()
         teweinig = mijn_app.stations.check_teweinig_fietsen()
+        print(teveel)
+        print(teweinig)
         fietsen = mijn_app.stations.zet_fietsen_in_wagen(teveel, transporteur)
-        mijn_app.stations.zet_fietsen_in_nieuw_station(fietsen,teweinig)
+        print(fietsen)
+        mijn_app.stations.zet_fietsen_in_nieuw_station(fietsen,teweinig, transporteur)
+        print(teweinig)
 
     elif option == 8:
         print_options(sub_option_menu,"Van welk onderdeel wil je een beeld krijgen")
@@ -138,7 +142,8 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
-        mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
+        for i in range(0,2000):
+            mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:
         mijn_app.gebruikers_list.save_gebruikers()

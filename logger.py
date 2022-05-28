@@ -1,7 +1,7 @@
 class Logger():
     def log_to_file(self, info):
         try:
-            output_bestand = open("dataset\log.txt", "a+")
+            output_bestand = open("dataset_default\log.txt", "a+")
         except IOError:
             print("Er was een probleem met het schrijven naar het bestand.")
             quit()

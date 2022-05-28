@@ -15,6 +15,7 @@ class Fietstransporteur(Gebruiker):
 class Fietstransporteurs():
     def __init__(self):
         self.fietstransporteurs = []
+
     def generate_fietstransporteurs(self):
         data = []
         try:

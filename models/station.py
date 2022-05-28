@@ -63,14 +63,23 @@ class Station():
         for key in list_slots:
             slo = list_slots[count]
             if(slo.bezet == True):
-                list_slots.pop(count)
+                list_slots.remove(slo)
                 list_slots.insert(count, slot.Slot(self.id, count, False, None))
-                for f in list_fietsen:
-                    fie = list_fietsen[count]
-                    list_fietsen.pop(count)
-                    list_fietsen.insert(count, fiets.Fiets(gebr, True, fie.id))
+                fie = list_fietsen[count]
+                list_fietsen.remove(self.fiets_op_id(slo.fiets_id))
+                list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
+                print(gebr)
+                print(slo)
                 return slo
             count += 1
+    
+    def fiets_op_id(self, fiets_id):
+        for i in self.fietsen:
+            print(i.id)
+            if (i.id == fiets_id):
+                print("ok")
+                print(i)
+                return i
 
     def voeg_plaats_toe(self, nummer, fiets_id):
         list_slots = self.slots
@@ -79,7 +88,7 @@ class Station():
             slo = list_slots[count_slot]
             if(slo.nummer == int(nummer)):
                 if(slo.bezet == False):
-                    list_slots.pop(count_slot)
+                    list_slots.remove(slo)
                     list_slots.insert(count_slot, slot.Slot(
                         self.id, count_slot, True, fiets_id))
                     return slo
@@ -87,6 +96,20 @@ class Station():
                     print("Dit slot bevat al een fiets")
                     return "Dit slot bevat al een fiets"
             count_slot += 1
+    
+    #slots to stations json
+    def save_slots(self):
+        data = []
+        for s in self.slots:
+            data.append({
+                'slot': {
+                    'id': s.nummer,
+                    'bezet': s.bezet,
+                    'fiets': s.fiets_id
+                }
+            })
+        print(data)
+        return data
 
     def __str__(self):
         return f"{self.id}  : locatie: {self.straatnaam}, {self.postcode} {self.district} , aantal slots: {self.aantal_slots}, aantal fietsen: {len(self.fietsen)}\n {self.slots}\n"
@@ -122,14 +145,11 @@ class Stations():
 
     def save_stations(self):
         data = []
-        data_s = []
         list = self.stations
         count = 0
         try:
             for key in list:
                 stat = list[count]
-                print(stat.slots)
-                print(stat.check_slot())
                 data.append({
                     'properties': {
                         'OBJECTID': stat.id,
@@ -139,20 +159,9 @@ class Stations():
                         'Objectcode': stat.objectcode,
                         'Aantal_plaatsen': stat.aantal_slots,
                     },
-                    'slots': [data_s]
+                    'slots': [stat.save_slots()]
                 })
-                print(count)
                 count += 1
-                data_s.clear()
-                for s in stat.slots:
-                    data_s.append({
-                        'slot': {
-                            'id': s.nummer,
-                            'bezet': s.bezet,
-                            'fiets': s.fiets_id
-                        }
-                    })
-                #print(data_s)
             with open("dataset_save\stations.json", 'w') as outfile:
                 json.dump(data, outfile, indent=4)
         except:
@@ -237,7 +246,7 @@ class Stations():
                     return stat
             count += 1
 
-    def verwijder_fiets(self, gebr):
+    def verwijder_fiets(self, gebr, station):
         list_station = self.stations
         count_stat = 0
         for key in list_station:
@@ -245,10 +254,14 @@ class Stations():
                 stat = list_station[count_stat]
             for f in stat.fietsen:
                 if (f.gebruiker == gebr):
-                    print("je hebt de fiets succesvol terug gebracht")
+                    print("_Q_Q_Q")
+                    print(f)
                     stat.fietsen.remove(f)
-                    stat.fietsen.append(fiets.Fiets(gebr, False, f.id))
-                    return gebr
+                    print(stat.fietsen)
+                    station.fietsen.append(fiets.Fiets(gebr, False, f.id))
+                    print("_Q_Q_Q")
+                    print(stat.fietsen)
+                    return f"{f.gebruiker} heeft de fiets met id {f.id} succesvol terug gebracht op station met id {stat.id}"
             count_stat += 1
 
     def check_fiets(self, id):
@@ -299,6 +312,41 @@ class Stations():
             print(sta)
             count += 1
         return list
+
+    def simulatie(self, gebruikers, fietstransporteurs):
+        # gebruiker neemt een fiets
+        gebruiker = self.geef_gebruiker(gebruikers)
+        station_begin = self.geef_station()
+        station_begin.geef_fiets(gebruiker)
+
+        # gebruiker zet de fiets terug
+        station_eind = self.geef_station()
+        for s in station_eind.slots:
+            if (s.bezet == False):
+                station_eind.voeg_plaats_toe(s.nummer, self.check_fiets_gebr(gebruiker))
+                self.verwijder_fiets(gebruiker, station_eind)
+                return
+            # else:
+            #     print("pech, opnieuw")
+    
+    # geeft een random gebruiker uit de json voor de simulatie
+    def geef_gebruiker(self, gebruikers):
+        for x in gebruikers:
+            if x.tijd_bezig == 0:
+                y = random.randint(0,5)
+                if (y == 1):
+                    print(x)
+                    return x
+
+    # geeft een random station uit de json voor de simulatie
+    def geef_station(self):
+        for x in self.stations:
+            y = random.randint(0,5)
+            if (y == 1):
+                print(x)
+                return x
+
+
 
     def __repr__(self):
         return '\n'.join(str(stat) for stat in self.stations)

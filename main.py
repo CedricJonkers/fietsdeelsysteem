@@ -31,8 +31,9 @@ option_menu = {
     6: 'check fietsen',
     7: 'verplaats fietsen',
     8: 'generate html',
-    9: 'save',
-    10: 'exit'
+    9: 'simulatie',
+    10: 'save',
+    11: 'exit'
 }
 
 sub_option_menu = {
@@ -87,14 +88,13 @@ while(True):
     elif option == 5:
         gebr = input('Geef je naam: ')
         user = mijn_app.gebruikers_list.zoek_op_naam(gebr)
-        print(user)
         if(mijn_app.gebruikers_list.zoek_op_naam(gebr) != None):
           stat = input('Geef je station: ')
           mijn_station = mijn_app.stations.zoek_op_id(stat)
           slot = input('Geef het slot nummer: ')
           id = mijn_app.stations.check_fiets_gebr(user)
           mijn_station.voeg_plaats_toe(slot, id)
-          mijn_app.stations.verwijder_fiets(user)
+          mijn_app.stations.verwijder_fiets(user, mijn_station)
         else:
           print("Naam bestaat niet")
 
@@ -138,11 +138,14 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
+        mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
+
+    elif option == 10:
         mijn_app.gebruikers_list.save_gebruikers()
         mijn_app.fietstransporteurs_list.save_fietstransporteurs()
         mijn_app.stations.save_stations()
 
-    elif option == 10:
+    elif option == 11:
         print("Exit code....")
         exit()
     else:

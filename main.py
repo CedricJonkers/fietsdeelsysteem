@@ -80,10 +80,15 @@ while(True):
     elif option == 4:
         naam = input('Geef je naam: ')
         user = mijn_app.gebruikers_list.zoek_op_naam(naam)
-        if(mijn_app.gebruikers_list.zoek_op_naam(naam) != None):
+        if(mijn_app.gebruikers_list.zoek_op_naam(naam) != None and mijn_app.stations.check_fiets_gebruiker(user) != True):
           stat = int(input('Geef je station id: '))
-          mijn_station = mijn_app.stations.zoek_op_id(stat)
-          print("Beste", naam, mijn_station.geef_fiets(user), ", je mag deze gebruiken.")
+          if (mijn_app.stations.zoek_op_id(stat) != None and mijn_app.stations.zoek_op_id(stat).check_slot_met_fiets() != 0):
+              mijn_station = mijn_app.stations.zoek_op_id(stat)
+              print("Beste", naam, mijn_station.geef_fiets(user,mijn_app.stations), ", je mag deze gebruiken.")
+          else:
+              print("dit station heeft geen fietsen meer of bestaat niet")
+        else:
+            print("Je hebt al een fiets")
 
     elif option == 5:
         gebr = input('Geef je naam: ')
@@ -142,7 +147,7 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
-        for i in range(0,2000):
+        for i in range(0,100):
             mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:

@@ -21,6 +21,7 @@ class Gebruikers():
 
     def generate_gebruikers(self, aantal_gebruikers):
         data = []
+        print("generating")
         try:
             for i in range(aantal_gebruikers):
                 voornaam = names.get_first_name()
@@ -34,11 +35,10 @@ class Gebruikers():
                     'functie': gebruiker.functie,
                     'tijd_bezig': tijd_bezig
                     })
-                with open("dataset_default\gebruikers.json", 'w') as outfile:
-                    json.dump(data, outfile)
                 os.system('cls')
                 print(f"generating gebruikers({i}/{aantal_gebruikers})")
-                    
+            with open("dataset_default\gebruikers.json", 'w') as outfile:
+                json.dump(data, outfile)
             return self.gebruikers
         except:
             print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")

@@ -148,7 +148,7 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
-        for i in range(0,1000):
+        for i in range(0,30000):
             mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:

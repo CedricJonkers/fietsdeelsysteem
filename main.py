@@ -98,7 +98,7 @@ while(True):
           stat = input('Geef je station: ')
           mijn_station = mijn_app.stations.zoek_op_id(stat)
           slot = input('Geef het slot nummer: ')
-          id = mijn_app.stations.check_fiets_gebr(user)
+          #id = mijn_app.stations.check_fiets_gebr(user)
           mijn_station.voeg_plaats_toe(slot, id)
           mijn_app.stations.verwijder_fiets(user, mijn_station)
         else:

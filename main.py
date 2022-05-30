@@ -107,7 +107,7 @@ while(True):
     elif option == 6:
         stat = input('Geef je station: ')
         mijn_station = mijn_app.stations.zoek_op_id(stat)
-        print(mijn_station.check_fiets())
+        print(mijn_station.check_fiets_station())
 
     elif option == 7:
         naam = input("Geef je naam: ")
@@ -148,7 +148,7 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
-        for i in range(0,30000):
+        for i in range(0,10):
             mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:

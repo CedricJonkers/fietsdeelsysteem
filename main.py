@@ -14,7 +14,8 @@ class App():
         self.station = station.Station(0, "Baron Sadoinestraat (2660)","",0,0,0)
         self.stations = station.Stations()
         self.station_data = self.stations.read_stations()
-        self.gebruikers_data = self.gebruikers_list.generate_gebruikers()
+        aantal_gebruikers = int(input('Hoeveel gebruikers wilt u: '))
+        self.gebruikers_data = self.gebruikers_list.generate_gebruikers(aantal_gebruikers)
         self.fietstransporteurs_data = self.fietstransporteurs_list.generate_fietstransporteurs()
 
 
@@ -147,7 +148,7 @@ while(True):
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
 
     elif option == 9:
-        for i in range(0,100):
+        for i in range(0,1000):
             mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:

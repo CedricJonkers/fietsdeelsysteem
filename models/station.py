@@ -1,4 +1,4 @@
-from os import remove
+import os
 from re import X
 import models.fiets as fiets
 import models.slot as slot
@@ -79,26 +79,26 @@ class Station():
         for key in list_slots:
             slo = list_slots[count]
             if(slo.bezet == True):
-                print(slo)
-                print(list_slots)
+                # print(slo)
+                # print(list_slots)
                 list_slots.remove(slo)
                 list_slots.insert(count, slot.Slot(
                     self.id, count, False, None))
                 x = stations.check_fiets(slo.fiets_id)
-                print(list_slots)
-                print(x)
-                print("before remove")
-                print(list_fietsen)
+                # print(list_slots)
+                # print(x)
+                # print("before remove")
+                # print(list_fietsen)
                 if (x in list_fietsen):
                     list_fietsen.remove(x)
                     list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
                 else:
                     stations.remove_fiets(slo.fiets_id)
                     list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
-                print("after remove")
-                print(list_fietsen)
-                print("after append")
-                print(list_fietsen)
+                # print("after remove")
+                # print(list_fietsen)
+                # print("after append")
+                # print(list_fietsen)
                 return slo
             count += 1
 
@@ -165,7 +165,8 @@ class Stations():
             station = Station(id, straatnaam, district, postcode,
                               objectcode, aantal_slots)
             self.stations.append(station)
-            print(station)
+            print(f"reading stations...")
+            os.system('cls')
         return self.stations
 
     def save_stations(self):
@@ -197,8 +198,9 @@ class Stations():
         count = 0
         transporteurcount = 0
         for s in self.stations:
-            print(s)
             transporteurcount += 1
+            print(f"fietsen toevoegen aan station: {s}")
+            os.system('cls')
             if (transporteurcount >= len(transporteurslist)):
                 transporteurcount = 0
             for i in range(s.aantal_slots):
@@ -449,6 +451,13 @@ class Stations():
                 if (s.in_gebruik == True and s.gebruiker == gebruiker):
                     bevat_fiets = True
                     return bevat_fiets
+                elif(s.gebruiker == gebruiker and s.in_gebruik == False):
+                    print(s)
+                    print(s.gebruiker)
+                    bevat_fiets = False
+                    return bevat_fiets
+            return bevat_fiets
+
             count += 1
         return bevat_fiets
 

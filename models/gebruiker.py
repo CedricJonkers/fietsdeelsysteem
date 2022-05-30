@@ -1,5 +1,6 @@
 import names as names
 import json
+import os
 
 class Gebruiker():
     def __init__(self, achternaam, voornaam, tijd_bezig):
@@ -18,10 +19,10 @@ class Gebruikers():
     def __init__(self):
         self.gebruikers = []
 
-    def generate_gebruikers(self):
+    def generate_gebruikers(self, aantal_gebruikers):
         data = []
         try:
-            for i in range(100):
+            for i in range(aantal_gebruikers):
                 voornaam = names.get_first_name()
                 achternaam = names.get_last_name()
                 tijd_bezig = 0
@@ -35,6 +36,9 @@ class Gebruikers():
                     })
                 with open("dataset_default\gebruikers.json", 'w') as outfile:
                     json.dump(data, outfile)
+                os.system('cls')
+                print(f"generating gebruikers({i}/{aantal_gebruikers})")
+                    
             return self.gebruikers
         except:
             print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")

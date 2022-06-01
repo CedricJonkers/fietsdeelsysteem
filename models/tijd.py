@@ -1,5 +1,5 @@
 import time
-
+import sys
 
 class Tijd():
     def __init__(self):
@@ -20,3 +20,9 @@ class Tijd():
 
     def __repr__(self):
         return f"{self.tijd_per_rit}"
+
+    def tijd_show():
+        for i in range(10,0,-1):
+            sys.stdout.write(str(i)+' ')
+            sys.stdout.flush()
+            time.sleep(1)

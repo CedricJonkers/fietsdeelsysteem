@@ -1,3 +1,4 @@
+from pip import main
 import models.fietstransporteur as fietstransporteur
 import models.gebruiker as gebruiker
 import models.fiets as fiets
@@ -5,6 +6,7 @@ import models.station as station
 import sys, os
 import pandas as pd
 import html_writer as html_writer
+import sys
 
 
 class App():
@@ -21,6 +23,11 @@ class App():
 
 mijn_app = App()
 mijn_app.stations.add_slots_bikes(mijn_app.fietstransporteurs_data)
+
+if len(sys.argv) == 2:
+    for i in range(0,1000):
+        mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
+
 
 #os.system('cls')
 option_menu = {
@@ -122,7 +129,7 @@ while(True):
         print(teweinig)
 
     elif option == 8:
-        print_options(sub_option_menu,"Van welk onderdeel wil je een beeld krijgen")
+        print_options(sub_option_menu,"Van welk onderdeel wil je een beeld krijgen: ")
         option = ""
         try:
             option = int(input('\nEnter option: '))
@@ -134,21 +141,27 @@ while(True):
             df = pd.DataFrame({'fiets':[fie]})
             html_table = html_writer.htmlWriter().create_html_table(df)
             html_writer.htmlWriter().create_html_page(html_table, df, fie.id)
+            os.system(f"start _site/{fie_id}.html")
         elif option == 2:
                 gebr = input('Geef je naam: ')
                 user = mijn_app.gebruikers_list.zoek_op_naam(gebr)
-                df = pd.DataFrame({'gebruiker':[gebr]})
+                fie_id = mijn_app.stations.zoek_fiets_gebruiker(user)
+                fie = mijn_app.stations.check_fiets(fie_id)
+                df = pd.DataFrame({'gebruiker':[fie]})
                 html_table = html_writer.htmlWriter().create_html_table(df)
-                html_writer.htmlWriter().create_html_page(html_table, df, user.voornaam)
+                print(fie.gebruiker)
+                html_writer.htmlWriter().create_html_page(html_table, df, fie.gebruiker.voornaam)
+                os.system(f"start _site/{fie.gebruiker.voornaam}.html")
         elif option == 3:
                 stat = input('Geef je station: ')
                 mijn_station = mijn_app.stations.zoek_op_id(stat)
                 df = pd.DataFrame({'slots':mijn_station.check_slot()})
                 html_table = html_writer.htmlWriter().create_html_table(df)
                 html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
+                os.system(f"start _site/{mijn_station.id}.html")
 
     elif option == 9:
-        for i in range(0,1):
+        for i in range(0,10):
             mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:
@@ -161,7 +174,6 @@ while(True):
         exit()
     else:
         print('invalid option:', option, 'Try again...')
-
-
-if __name__ == "__main__":
-    main()
+    
+    if __name__ == "__main__":
+        main()

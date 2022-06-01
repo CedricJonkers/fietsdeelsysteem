@@ -1,4 +1,5 @@
 import os
+from threading import Timer
 import models.fiets as fiets
 import models.slot as slot
 import models.fietstransporteur as fietstransporteur
@@ -211,12 +212,12 @@ class Stations():
             for s in stat_teveel.slots:
                 if (s.bezet == False):
                     if(count < round(len(aantal_fietsen)/2)):
-                        print(stat_teveel)
+                        # print(stat_teveel)
                         f = stat_teveel.geef_fiets(fietstransporteur, self)
                         return_list.append(f)
                         logger.Logger().log_to_file(str(fietstransporteur.achternaam + " " + fietstransporteur.voornaam +" heeft fiets met id: " + str(f.fiets_id) + " meegenomen uit station: " + str(stat_teveel.id)))
                     count += 1
-        print(return_list)
+        # print(return_list)
         return return_list
 
     # fietstransporteur voegt de fietsen in het nieuwe station
@@ -277,10 +278,10 @@ class Stations():
                     if (gebr != None):
                         stat.fietsen.remove(f)
                         station.fietsen.append(fiets.Fiets(gebr, False, f.id))
-                        print('-------')
-                        print(
-                            f"{f.gebruiker.achternaam} {f.gebruiker.voornaam} heeft de fiets met id {f.id} succesvol terug gebracht op station met id {station.id}")
-                        print('-------')
+                        # print('-------')
+                        # print(
+                        #     f"{f.gebruiker.achternaam} {f.gebruiker.voornaam} heeft de fiets met id {f.id} succesvol terug gebracht op station met id {station.id}")
+                        # print('-------')
                         return f"{f.gebruiker} heeft de fiets met id {f.id} succesvol terug gebracht op station met id {station.id}"
             count_stat += 1
 
@@ -331,7 +332,6 @@ class Stations():
         return list
 
     def simulatie(self, gebruikers, fietstransporteurs):
-
         # fietstransporteurs die kijken in de stations welke teveel fietsen hebben en welke er tewijnig hebben en verdelen deze
         if (self.check_teweinig_fietsen() != None and self.check_teveel_fietsen() != None):
             stat_teweinig = self.check_teweinig_fietsen()
@@ -354,11 +354,13 @@ class Stations():
         index = random.randint(0, len(gebruikers_met_fiets)-1)
         gebruiker_stop = gebruikers_met_fiets[index]
         station_eind = self.geef_station()
+        tijd_f = Tijd.tijd_show()
+        #print(tijd_f)
         if (station_eind.check_leeg_slot() != -1 and gebruiker_stop.gebruiker != None):
             station_eind.voeg_plaats_toe(station_eind.check_leeg_slot(
             ), self.zoek_fiets_gebruiker(gebruiker_stop.gebruiker))
-            print(
-                f"fiets: {gebruiker_stop.id}: terug gebracht naar station met id: {station_eind.id} door {gebruiker_stop.gebruiker}")
+            # print(
+            #     f"fiets: {gebruiker_stop.id}: terug gebracht naar station met id: {station_eind.id} door {gebruiker_stop.gebruiker}")
             self.verwijder_fiets(gebruiker_stop.gebruiker, station_eind)
             logger.Logger().log_to_file(str(gebruiker_stop.gebruiker.achternaam + " " +
                                             gebruiker_stop.gebruiker.voornaam + " heeft een fiets teruggebracht bij station " + str(station_eind.id)))
@@ -387,12 +389,12 @@ class Stations():
                 if (s.in_gebruik == True and s.gebruiker != None):
                     gebruikers_met_fiets.append(s)
                     if (s.gebruiker == None):
-                        print("----")
-                        print(s)
-                        print(gebruikers_met_fiets)
-                        # gebruikers_met_fiets.remove(s)
-                        print(gebruikers_met_fiets)
-                        print("----")
+                        # print("----")
+                        # print(s)
+                        # print(gebruikers_met_fiets)
+                        # # gebruikers_met_fiets.remove(s)
+                        # print(gebruikers_met_fiets)
+                        # print("----")
                         exit()
             count += 1
         return gebruikers_met_fiets

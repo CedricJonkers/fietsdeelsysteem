@@ -1,302 +1,62 @@
 [
     {
-        "achternaam": "Kugler",
-        "voornaam": "Santos",
+        "achternaam": "Youngs",
+        "voornaam": "Dennis",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:26:41"
     },
     {
-        "achternaam": "Gillman",
-        "voornaam": "Richard",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Lytle",
-        "voornaam": "Veronica",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Garrison",
-        "voornaam": "Allie",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Lusk",
-        "voornaam": "Florence",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Weaver",
+        "achternaam": "Mitchum",
         "voornaam": "Sheila",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:26:41"
     },
     {
-        "achternaam": "Nason",
-        "voornaam": "Jeffrey",
+        "achternaam": "Morrissette",
+        "voornaam": "Mitzie",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     },
     {
-        "achternaam": "Blaize",
-        "voornaam": "Shawn",
+        "achternaam": "Norris",
+        "voornaam": "Albert",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:26:41"
     },
     {
-        "achternaam": "Serenil",
-        "voornaam": "Bertha",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Marchant",
-        "voornaam": "Dee",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Davila",
+        "achternaam": "Chapman",
         "voornaam": "James",
         "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Soltys",
-        "voornaam": "Dana",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Reyes",
-        "voornaam": "Traci",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Bridges",
-        "voornaam": "Reina",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Bush",
-        "voornaam": "Summer",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Sisler",
-        "voornaam": "James",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     },
     {
         "achternaam": "Davis",
-        "voornaam": "Richard",
+        "voornaam": "Maryjane",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     },
     {
-        "achternaam": "Gasiewski",
-        "voornaam": "Martha",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Gomez",
+        "achternaam": "Larson",
         "voornaam": "Joseph",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     },
     {
-        "achternaam": "Green",
-        "voornaam": "Nancy",
+        "achternaam": "Stevens",
+        "voornaam": "Fernando",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     },
     {
-        "achternaam": "Tunson",
-        "voornaam": "Harold",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Storlie",
-        "voornaam": "John",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Mova",
-        "voornaam": "Shirley",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Purcell",
-        "voornaam": "Patricia",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Guastella",
-        "voornaam": "Mitch",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Lancaster",
-        "voornaam": "Terry",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Howard",
-        "voornaam": "Robert",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Keith",
-        "voornaam": "Harold",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Betts",
-        "voornaam": "Florence",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Butler",
-        "voornaam": "Ana",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Higby",
-        "voornaam": "Carolyn",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Fitch",
-        "voornaam": "Jason",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Gotch",
-        "voornaam": "Jose",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Sweitzer",
-        "voornaam": "Adriana",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Mirando",
-        "voornaam": "Vivian",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Tram",
-        "voornaam": "Alberta",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Smith",
+        "achternaam": "Thompson",
         "voornaam": "Andrew",
         "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     },
     {
-        "achternaam": "Jensen",
-        "voornaam": "Floyd",
+        "achternaam": "Light",
+        "voornaam": "Wayne",
         "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Cornelia",
-        "voornaam": "Deborah",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Briones",
-        "voornaam": "April",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Watt",
-        "voornaam": "Willie",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Sanchez",
-        "voornaam": "Charissa",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Phillips",
-        "voornaam": "Dina",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Saxon",
-        "voornaam": "Leo",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Murry",
-        "voornaam": "Vivian",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Twehous",
-        "voornaam": "Jesus",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Steckler",
-        "voornaam": "Bessie",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Armstrong",
-        "voornaam": "Hazel",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Galle",
-        "voornaam": "Annie",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
-    },
-    {
-        "achternaam": "Turner",
-        "voornaam": "Robert",
-        "functie": "gebruiker",
-        "tijd_bezig": 0
+        "tijd_bezig": "2022-06-02 23:27:05"
     }
 ]

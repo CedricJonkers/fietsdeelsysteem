@@ -1,5 +1,6 @@
 import time
 import sys
+import datetime
 
 class Tijd():
     def __init__(self):

@@ -1,41 +1,467 @@
-Lusk Florence heeft fiets met id: 42 meegenomen uit station: 230525 met slotnr: 3
-Smith Andrew heeft fiets met id: 1903 meegenomen uit station: 230651 met slotnr: 0
-Bridges Reina heeft fiets met id: 4074 meegenomen uit station: 230780 met slotnr: 0
-Bridges Reina heeft fiets met id: 4074 teruggebracht naar station: 230566
-Keith Harold heeft fiets met id: 3854 meegenomen uit station: 230768 met slotnr: 1
-Weaver Sheila heeft fiets met id: 2095 meegenomen uit station: 230664 met slotnr: 3
-Keith Harold heeft fiets met id: 3854 teruggebracht naar station: 230541
-Saxon Leo heeft fiets met id: 1674 meegenomen uit station: 230636 met slotnr: 0
-Gotch Jose heeft fiets met id: 2351 meegenomen uit station: 230680 met slotnr: 1
-Sweitzer Adriana heeft fiets met id: 880 meegenomen uit station: 230578 met slotnr: 0
-Storlie John heeft fiets met id: 1044 meegenomen uit station: 230590 met slotnr: 1
-Sweitzer Adriana heeft fiets met id: 880 teruggebracht naar station: 230549
-Sweitzer Adriana heeft fiets met id: 2150 meegenomen uit station: 230668 met slotnr: 2
-Tunson Harold heeft fiets met id: 234 meegenomen uit station: 230539 met slotnr: 1
-Mova Shirley heeft fiets met id: 3514 meegenomen uit station: 230748 met slotnr: 0
-Kugler Santos heeft fiets met id: 3061 meegenomen uit station: 230722 met slotnr: 1
-Saxon Leo heeft fiets met id: 1674 teruggebracht naar station: 230790
-Murry Vivian heeft fiets met id: 523 meegenomen uit station: 230558 met slotnr: 0
-Smith Andrew heeft fiets met id: 1903 teruggebracht naar station: 230774
-Briones April heeft fiets met id: 4575 meegenomen uit station: 230809 met slotnr: 1
-Gomez Joseph heeft fiets met id: 862 meegenomen uit station: 230577 met slotnr: 0
-Soltys Dana heeft fiets met id: 2016 meegenomen uit station: 230659 met slotnr: 1
-Reyes Traci heeft fiets met id: 926 meegenomen uit station: 230581 met slotnr: 1
-Higby Carolyn heeft fiets met id: 95 meegenomen uit station: 230529 met slotnr: 0
-Gotch Jose heeft fiets met id: 2351 teruggebracht naar station: 230621
-Lancaster Terry heeft fiets met id: 4271 meegenomen uit station: 230791 met slotnr: 4
-Twehous Jesus heeft fiets met id: 1705 meegenomen uit station: 230638 met slotnr: 0
-Lusk Florence heeft fiets met id: 42 teruggebracht naar station: 230651
-Green Nancy heeft fiets met id: 524 meegenomen uit station: 230558 met slotnr: 2
-Gillman Richard heeft fiets met id: 2778 meegenomen uit station: 230704 met slotnr: 2
-Bridges Reina heeft fiets met id: 2999 meegenomen uit station: 230718 met slotnr: 1
-Marchant Dee heeft fiets met id: 1841 meegenomen uit station: 230647 met slotnr: 1
-Weaver Sheila heeft fiets met id: 2095 teruggebracht naar station: 230764
-Turner Robert heeft fiets met id: 668 meegenomen uit station: 230567 met slotnr: 1
-Purcell Patricia heeft fiets met id: 3998 meegenomen uit station: 230776 met slotnr: 0
-Davila James heeft fiets met id: 3682 meegenomen uit station: 230758 met slotnr: 3
-Mirando Vivian heeft fiets met id: 2317 meegenomen uit station: 230678 met slotnr: 3
-Davis Richard heeft fiets met id: 4369 meegenomen uit station: 230797 met slotnr: 2
-Soltys Dana heeft fiets met id: 2016 teruggebracht naar station: 230673
-Lusk Florence heeft fiets met id: 1319 meegenomen uit station: 230611 met slotnr: 1
-Mova Shirley heeft fiets met id: 3514 teruggebracht naar station: 230648
+Dergance Jennifer heeft fiets met id: 821 meegenomen uit station: 230576 met slotnr: 0
+Dergance Jennifer heeft fiets met id: 822 meegenomen uit station: 230576 met slotnr: 1
+Dergance Jennifer heeft fiets met id: 823 meegenomen uit station: 230576 met slotnr: 2
+Dergance Jennifer heeft fiets met id: 824 meegenomen uit station: 230576 met slotnr: 3
+Dergance Jennifer heeft fiets met id: 825 meegenomen uit station: 230576 met slotnr: 4
+Dergance Jennifer heeft fiets met id: 826 meegenomen uit station: 230576 met slotnr: 5
+Dergance Jennifer heeft fiets met id: 827 meegenomen uit station: 230576 met slotnr: 6
+Dergance Jennifer heeft fiets met id: 821 teruggebracht naar station: 230528
+Dergance Jennifer heeft fiets met id: 822 teruggebracht naar station: 230528
+Dergance Jennifer heeft fiets met id: 823 teruggebracht naar station: 230528
+Dergance Jennifer heeft fiets met id: 824 teruggebracht naar station: 230528
+Dergance Jennifer heeft fiets met id: 825 teruggebracht naar station: 230528
+Dergance Jennifer heeft fiets met id: 826 teruggebracht naar station: 230528
+Dergance Jennifer heeft fiets met id: 827 teruggebracht naar station: 230528
+Kroells Kerry heeft fiets met id: 2533 meegenomen uit station: 230694 met slotnr: 0
+Meyer James heeft fiets met id: 2005 meegenomen uit station: 230662 met slotnr: 0
+Mcgehee Virginia heeft fiets met id: 3178 meegenomen uit station: 230733 met slotnr: 1
+Meyer James heeft fiets met id: 2005 teruggebracht naar station: 230679
+Dergance Jennifer heeft fiets met id: 1297 meegenomen uit station: 230610 met slotnr: 0
+Dergance Jennifer heeft fiets met id: 1298 meegenomen uit station: 230610 met slotnr: 1
+Dergance Jennifer heeft fiets met id: 1299 meegenomen uit station: 230610 met slotnr: 2
+Dergance Jennifer heeft fiets met id: 1300 meegenomen uit station: 230610 met slotnr: 3
+Dergance Jennifer heeft fiets met id: 1301 meegenomen uit station: 230610 met slotnr: 6
+Dergance Jennifer heeft fiets met id: 1297 teruggebracht naar station: 230543
+Dergance Jennifer heeft fiets met id: 1298 teruggebracht naar station: 230543
+Dergance Jennifer heeft fiets met id: 1299 teruggebracht naar station: 230543
+Dergance Jennifer heeft fiets met id: 1300 teruggebracht naar station: 230543
+Dergance Jennifer heeft fiets met id: 1301 teruggebracht naar station: 230543
+Godwin Judith heeft fiets met id: 1490 meegenomen uit station: 230626 met slotnr: 0
+Kimble Emily heeft fiets met id: 1297 meegenomen uit station: 230543 met slotnr: 0
+Johnson Clarence heeft fiets met id: 3457 meegenomen uit station: 230749 met slotnr: 1
+Moriarty Melinda heeft fiets met id: 1611 meegenomen uit station: 230634 met slotnr: 0
+Kroells Kerry heeft fiets met id: 2533 teruggebracht naar station: 230621
+Dergance Jennifer heeft fiets met id: 1324 meegenomen uit station: 230612 met slotnr: 0
+Dergance Jennifer heeft fiets met id: 1325 meegenomen uit station: 230612 met slotnr: 1
+Dergance Jennifer heeft fiets met id: 1326 meegenomen uit station: 230612 met slotnr: 3
+Dergance Jennifer heeft fiets met id: 1327 meegenomen uit station: 230612 met slotnr: 5
+Dergance Jennifer heeft fiets met id: 1328 meegenomen uit station: 230612 met slotnr: 6
+Dergance Jennifer heeft fiets met id: 1324 teruggebracht naar station: 230544
+Dergance Jennifer heeft fiets met id: 1325 teruggebracht naar station: 230544
+Dergance Jennifer heeft fiets met id: 1326 teruggebracht naar station: 230544
+Dergance Jennifer heeft fiets met id: 1327 teruggebracht naar station: 230544
+Dergance Jennifer heeft fiets met id: 1328 teruggebracht naar station: 230544
+Culver Lianne heeft fiets met id: 3026 meegenomen uit station: 230724 met slotnr: 1
+Scelzo Michael heeft fiets met id: 2552 meegenomen uit station: 230695 met slotnr: 0
+Godwin Judith heeft fiets met id: 1490 teruggebracht naar station: 230757
+Dergance Jennifer heeft fiets met id: 1872 meegenomen uit station: 230653 met slotnr: 0
+Dergance Jennifer heeft fiets met id: 1873 meegenomen uit station: 230653 met slotnr: 1
+Dergance Jennifer heeft fiets met id: 1874 meegenomen uit station: 230653 met slotnr: 3
+Dergance Jennifer heeft fiets met id: 1875 meegenomen uit station: 230653 met slotnr: 4
+Dergance Jennifer heeft fiets met id: 1876 meegenomen uit station: 230653 met slotnr: 5
+Dergance Jennifer heeft fiets met id: 1872 teruggebracht naar station: 230552
+Dergance Jennifer heeft fiets met id: 1873 teruggebracht naar station: 230552
+Dergance Jennifer heeft fiets met id: 1874 teruggebracht naar station: 230552
+Dergance Jennifer heeft fiets met id: 1875 teruggebracht naar station: 230552
+Dergance Jennifer heeft fiets met id: 1876 teruggebracht naar station: 230552
+Brackett Sharon heeft fiets met id: 1654 meegenomen uit station: 230637 met slotnr: 0
+Meyer James heeft fiets met id: 2989 meegenomen uit station: 230722 met slotnr: 0
+Martines Guy heeft fiets met id: 3785 meegenomen uit station: 230767 met slotnr: 0
+Burgess Robert heeft fiets met id: 2340 meegenomen uit station: 230683 met slotnr: 0
+Joyce Alana heeft fiets met id: 574 meegenomen uit station: 230561 met slotnr: 0
+Burgess Robert heeft fiets met id: 2340 teruggebracht naar station: 230558
+Bridges Diego heeft fiets met id: 953 meegenomen uit station: 230583 met slotnr: 0
+Burgess Robert heeft fiets met id: 2359 meegenomen uit station: 230684 met slotnr: 1
+Taylor Gerard heeft fiets met id: 1454 meegenomen uit station: 230623 met slotnr: 0
+Johnson Clarence heeft fiets met id: 3457 teruggebracht naar station: 230584
+Kroells Kerry heeft fiets met id: 3599 meegenomen uit station: 230757 met slotnr: 0
+Rodriquez Clifford heeft fiets met id: 2953 meegenomen uit station: 230720 met slotnr: 0
+Hatley Cynthia heeft fiets met id: 1024 meegenomen uit station: 230589 met slotnr: 5
+Johnson Clarence heeft fiets met id: 1543 meegenomen uit station: 230630 met slotnr: 1
+Rodriquez Clifford heeft fiets met id: 2953 teruggebracht naar station: 230666
+Kunkle Steve heeft fiets met id: 4633 meegenomen uit station: 230816 met slotnr: 0
+Kunkle Steve heeft fiets met id: 4633 teruggebracht naar station: 230826
+Kunkle Steve heeft fiets met id: 2599 meegenomen uit station: 230698 met slotnr: 0
+Franke James heeft fiets met id: 2306 meegenomen uit station: 230681 met slotnr: 0
+Godwin Judith heeft fiets met id: 828 meegenomen uit station: 230576 met slotnr: 7
+Rodriquez Clifford heeft fiets met id: 1680 meegenomen uit station: 230639 met slotnr: 0
+Hatley Cynthia heeft fiets met id: 1024 teruggebracht naar station: 230797
+Hatley Cynthia heeft fiets met id: 2424 meegenomen uit station: 230688 met slotnr: 1
+Davis Rachel heeft fiets met id: 2098 meegenomen uit station: 230668 met slotnr: 1
+Mcgehee Virginia heeft fiets met id: 3178 teruggebracht naar station: 230608
+Mcgehee Virginia heeft fiets met id: 683 meegenomen uit station: 230568 met slotnr: 2
+Joyce Alana heeft fiets met id: 574 teruggebracht naar station: 230695
+Parra Lillie heeft fiets met id: 4558 meegenomen uit station: 230806 met slotnr: 2
+Wilson Lillian heeft fiets met id: 808 meegenomen uit station: 230575 met slotnr: 0
+Glassman Henrietta heeft fiets met id: 2298 meegenomen uit station: 230678 met slotnr: 2
+Freeman Kirk heeft fiets met id: 1390 meegenomen uit station: 230618 met slotnr: 3
+Chait Arthur heeft fiets met id: 502 meegenomen uit station: 230556 met slotnr: 0
+Parra Lillie heeft fiets met id: 4558 teruggebracht naar station: 230712
+Parra Lillie heeft fiets met id: 999 meegenomen uit station: 230587 met slotnr: 0
+Corkill Kathleen heeft fiets met id: 2979 meegenomen uit station: 230716 met slotnr: 1
+Rust Julius heeft fiets met id: 1314 meegenomen uit station: 230612 met slotnr: 3
+Simmons Andrew heeft fiets met id: 4383 meegenomen uit station: 230796 met slotnr: 5
+Glassman Henrietta heeft fiets met id: 2298 teruggebracht naar station: 230573
+Banville Sarah heeft fiets met id: 4487 meegenomen uit station: 230802 met slotnr: 1
+Chait Arthur heeft fiets met id: 502 teruggebracht naar station: 230775
+Glassman Henrietta heeft fiets met id: 973 meegenomen uit station: 230585 met slotnr: 0
+Mcneil Martina heeft fiets met id: 4054 meegenomen uit station: 230777 met slotnr: 7
+Chait Arthur heeft fiets met id: 2227 meegenomen uit station: 230674 met slotnr: 7
+Simmons Andrew heeft fiets met id: 4383 teruggebracht naar station: 230532
+Simmons Andrew heeft fiets met id: 4071 meegenomen uit station: 230778 met slotnr: 3
+Simmons Andrew heeft fiets met id: 4071 teruggebracht naar station: 230763
+Simmons Andrew heeft fiets met id: 1632 meegenomen uit station: 230635 met slotnr: 0
+Mcneil Martina heeft fiets met id: 4054 teruggebracht naar station: 230706
+Wright Rodney heeft fiets met id: 2792 meegenomen uit station: 230706 met slotnr: 0
+Wright Rodney heeft fiets met id: 2793 meegenomen uit station: 230706 met slotnr: 1
+Wright Rodney heeft fiets met id: 2794 meegenomen uit station: 230706 met slotnr: 2
+Wright Rodney heeft fiets met id: 4054 meegenomen uit station: 230706 met slotnr: 3
+Wright Rodney heeft fiets met id: 2795 meegenomen uit station: 230706 met slotnr: 4
+Wright Rodney heeft fiets met id: 2796 meegenomen uit station: 230706 met slotnr: 5
+Wright Rodney heeft fiets met id: 2792 teruggebracht naar station: 230534
+Wright Rodney heeft fiets met id: 2793 teruggebracht naar station: 230534
+Wright Rodney heeft fiets met id: 2794 teruggebracht naar station: 230534
+Wright Rodney heeft fiets met id: 4054 teruggebracht naar station: 230534
+Wright Rodney heeft fiets met id: 2795 teruggebracht naar station: 230534
+Wright Rodney heeft fiets met id: 2796 teruggebracht naar station: 230534
+Mcneil Martina heeft fiets met id: 3970 meegenomen uit station: 230772 met slotnr: 2
+Rust Julius heeft fiets met id: 1314 teruggebracht naar station: 230674
+Chait Arthur heeft fiets met id: 2227 teruggebracht naar station: 230719
+Chait Arthur heeft fiets met id: 723 meegenomen uit station: 230570 met slotnr: 0
+Rust Julius heeft fiets met id: 659 meegenomen uit station: 230566 met slotnr: 1
+Banville Sarah heeft fiets met id: 4487 teruggebracht naar station: 230583
+Banville Sarah heeft fiets met id: 4784 meegenomen uit station: 230820 met slotnr: 1
+Chait Arthur heeft fiets met id: 723 teruggebracht naar station: 230644
+Daniel Kelly heeft fiets met id: 729 meegenomen uit station: 230569 met slotnr: 0
+Daniel Kelly heeft fiets met id: 730 meegenomen uit station: 230569 met slotnr: 1
+Daniel Kelly heeft fiets met id: 731 meegenomen uit station: 230569 met slotnr: 2
+Daniel Kelly heeft fiets met id: 732 meegenomen uit station: 230569 met slotnr: 3
+Daniel Kelly heeft fiets met id: 733 meegenomen uit station: 230569 met slotnr: 4
+Daniel Kelly heeft fiets met id: 734 meegenomen uit station: 230569 met slotnr: 5
+Daniel Kelly heeft fiets met id: 735 meegenomen uit station: 230569 met slotnr: 6
+Daniel Kelly heeft fiets met id: 736 meegenomen uit station: 230569 met slotnr: 7
+Daniel Kelly heeft fiets met id: 737 meegenomen uit station: 230569 met slotnr: 9
+Daniel Kelly heeft fiets met id: 729 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 730 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 731 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 732 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 733 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 734 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 735 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 736 teruggebracht naar station: 230543
+Daniel Kelly heeft fiets met id: 737 teruggebracht naar station: 230543
+Beyah Pedro heeft fiets met id: 2983 meegenomen uit station: 230719 met slotnr: 5
+Beyah Pedro heeft fiets met id: 2983 teruggebracht naar station: 230561
+Daniel Kelly heeft fiets met id: 1212 meegenomen uit station: 230603 met slotnr: 0
+Daniel Kelly heeft fiets met id: 1213 meegenomen uit station: 230603 met slotnr: 1
+Daniel Kelly heeft fiets met id: 1214 meegenomen uit station: 230603 met slotnr: 2
+Daniel Kelly heeft fiets met id: 1212 teruggebracht naar station: 230562
+Daniel Kelly heeft fiets met id: 1213 teruggebracht naar station: 230562
+Daniel Kelly heeft fiets met id: 1214 teruggebracht naar station: 230562
+Payton Tyrone heeft fiets met id: 1862 meegenomen uit station: 230650 met slotnr: 0
+Horton Deanna heeft fiets met id: 1166 meegenomen uit station: 230599 met slotnr: 0
+Mccray Inez heeft fiets met id: 1562 meegenomen uit station: 230630 met slotnr: 5
+Evans Alvin heeft fiets met id: 899 meegenomen uit station: 230579 met slotnr: 1
+Payton Tyrone heeft fiets met id: 1862 teruggebracht naar station: 230749
+Daniel Kelly heeft fiets met id: 1889 meegenomen uit station: 230652 met slotnr: 0
+Daniel Kelly heeft fiets met id: 1890 meegenomen uit station: 230652 met slotnr: 1
+Daniel Kelly heeft fiets met id: 1891 meegenomen uit station: 230652 met slotnr: 3
+Daniel Kelly heeft fiets met id: 1892 meegenomen uit station: 230652 met slotnr: 6
+Daniel Kelly heeft fiets met id: 1893 meegenomen uit station: 230652 met slotnr: 7
+Daniel Kelly heeft fiets met id: 1894 meegenomen uit station: 230652 met slotnr: 9
+Daniel Kelly heeft fiets met id: 1895 meegenomen uit station: 230652 met slotnr: 12
+Daniel Kelly heeft fiets met id: 1889 teruggebracht naar station: 230584
+Daniel Kelly heeft fiets met id: 1890 teruggebracht naar station: 230584
+Daniel Kelly heeft fiets met id: 1891 teruggebracht naar station: 230584
+Daniel Kelly heeft fiets met id: 1892 teruggebracht naar station: 230584
+Daniel Kelly heeft fiets met id: 1893 teruggebracht naar station: 230584
+Daniel Kelly heeft fiets met id: 1894 teruggebracht naar station: 230584
+Daniel Kelly heeft fiets met id: 1895 teruggebracht naar station: 230584
+Bingham David heeft fiets met id: 514 meegenomen uit station: 230556 met slotnr: 0
+Guajardo Melissa heeft fiets met id: 3700 meegenomen uit station: 230762 met slotnr: 1
+Houghtaling William heeft fiets met id: 1177 meegenomen uit station: 230600 met slotnr: 0
+Goodrich Brett heeft fiets met id: 3943 meegenomen uit station: 230776 met slotnr: 1
+Guajardo Melissa heeft fiets met id: 3700 teruggebracht naar station: 230722
+Daniel Kelly heeft fiets met id: 4677 meegenomen uit station: 230817 met slotnr: 0
+Daniel Kelly heeft fiets met id: 4678 meegenomen uit station: 230817 met slotnr: 1
+Daniel Kelly heeft fiets met id: 4679 meegenomen uit station: 230817 met slotnr: 2
+Daniel Kelly heeft fiets met id: 4680 meegenomen uit station: 230817 met slotnr: 4
+Daniel Kelly heeft fiets met id: 4681 meegenomen uit station: 230817 met slotnr: 7
+Daniel Kelly heeft fiets met id: 4682 meegenomen uit station: 230817 met slotnr: 8
+Daniel Kelly heeft fiets met id: 4683 meegenomen uit station: 230817 met slotnr: 9
+Daniel Kelly heeft fiets met id: 4684 meegenomen uit station: 230817 met slotnr: 10
+Daniel Kelly heeft fiets met id: 4685 meegenomen uit station: 230817 met slotnr: 11
+Daniel Kelly heeft fiets met id: 4677 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4678 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4679 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4680 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4681 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4682 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4683 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4684 teruggebracht naar station: 230588
+Daniel Kelly heeft fiets met id: 4685 teruggebracht naar station: 230588
+Beyah Pedro heeft fiets met id: 4422 meegenomen uit station: 230802 met slotnr: 1
+Horton Deanna heeft fiets met id: 1166 teruggebracht naar station: 230701
+Montana James heeft fiets met id: 3643 meegenomen uit station: 230759 met slotnr: 0
+Merchant Kenneth heeft fiets met id: 2984 meegenomen uit station: 230719 met slotnr: 6
+Gross Anthony heeft fiets met id: 1346 meegenomen uit station: 230613 met slotnr: 0
+May Charles heeft fiets met id: 3536 meegenomen uit station: 230753 met slotnr: 0
+Payton Tyrone heeft fiets met id: 1318 meegenomen uit station: 230611 met slotnr: 0
+Merchant Kenneth heeft fiets met id: 2984 teruggebracht naar station: 230634
+Davis Jonathan heeft fiets met id: 326 meegenomen uit station: 230544 met slotnr: 1
+Miller Daniel heeft fiets met id: 1272 meegenomen uit station: 230607 met slotnr: 1
+Chumley Kevin heeft fiets met id: 4550 meegenomen uit station: 230810 met slotnr: 2
+Rowland Maria heeft fiets met id: 4031 meegenomen uit station: 230781 met slotnr: 1
+Guajardo Melissa heeft fiets met id: 710 meegenomen uit station: 230568 met slotnr: 1
+Mccray Inez heeft fiets met id: 1562 teruggebracht naar station: 230624
+Dean Carolyn heeft fiets met id: 4443 meegenomen uit station: 230803 met slotnr: 1
+Dean Carolyn heeft fiets met id: 4443 teruggebracht naar station: 230621
+Merchant Kenneth heeft fiets met id: 1946 meegenomen uit station: 230656 met slotnr: 2
+Payton Tyrone heeft fiets met id: 1318 teruggebracht naar station: 230749
+Toomey Winston heeft fiets met id: 1756 meegenomen uit station: 230643 met slotnr: 3
+Mccray Inez heeft fiets met id: 711 meegenomen uit station: 230568 met slotnr: 3
+Dean Carolyn heeft fiets met id: 2696 meegenomen uit station: 230703 met slotnr: 1
+Payton Tyrone heeft fiets met id: 3745 meegenomen uit station: 230765 met slotnr: 0
+May Charles heeft fiets met id: 3536 teruggebracht naar station: 230597
+Horton Deanna heeft fiets met id: 2675 meegenomen uit station: 230702 met slotnr: 1
+Gimenez James heeft fiets met id: 3037 meegenomen uit station: 230722 met slotnr: 0
+Dean Carolyn heeft fiets met id: 2696 teruggebracht naar station: 230630
+Montana James heeft fiets met id: 3643 teruggebracht naar station: 230568
+May Charles heeft fiets met id: 643 meegenomen uit station: 230564 met slotnr: 1
+Dean Carolyn heeft fiets met id: 2641 meegenomen uit station: 230700 met slotnr: 0
+Montana James heeft fiets met id: 1600 meegenomen uit station: 230633 met slotnr: 1
+Toomey Winston heeft fiets met id: 1756 teruggebracht naar station: 230631
+Toomey Winston heeft fiets met id: 4323 meegenomen uit station: 230797 met slotnr: 0
+Guajardo Melissa heeft fiets met id: 710 teruggebracht naar station: 230816
+Guajardo Melissa heeft fiets met id: 3124 meegenomen uit station: 230727 met slotnr: 0
+Merchant Kenneth heeft fiets met id: 1946 teruggebracht naar station: 230773
+Merchant Kenneth heeft fiets met id: 1199 meegenomen uit station: 230602 met slotnr: 0
+Montana James heeft fiets met id: 1600 teruggebracht naar station: 230666
+Montana James heeft fiets met id: 4881 meegenomen uit station: 230830 met slotnr: 0
+Rowland Maria heeft fiets met id: 4031 teruggebracht naar station: 230573
+Rowland Maria heeft fiets met id: 3854 meegenomen uit station: 230771 met slotnr: 0
+Evans Alvin heeft fiets met id: 899 teruggebracht naar station: 230725
+Evans Alvin heeft fiets met id: 2437 meegenomen uit station: 230688 met slotnr: 0
+Davis Jonathan heeft fiets met id: 326 teruggebracht naar station: 230555
+Davis Jonathan heeft fiets met id: 3628 meegenomen uit station: 230758 met slotnr: 2
+Guajardo Melissa heeft fiets met id: 3124 teruggebracht naar station: 230613
+Guajardo Melissa heeft fiets met id: 90 meegenomen uit station: 230529 met slotnr: 1
+Montana James heeft fiets met id: 4881 teruggebracht naar station: 230648
+Friedman Sara heeft fiets met id: 420 meegenomen uit station: 230551 met slotnr: 0
+Friedman Sara heeft fiets met id: 421 meegenomen uit station: 230551 met slotnr: 1
+Friedman Sara heeft fiets met id: 422 meegenomen uit station: 230551 met slotnr: 2
+Friedman Sara heeft fiets met id: 423 meegenomen uit station: 230551 met slotnr: 3
+Friedman Sara heeft fiets met id: 420 teruggebracht naar station: 230571
+Friedman Sara heeft fiets met id: 421 teruggebracht naar station: 230571
+Friedman Sara heeft fiets met id: 422 teruggebracht naar station: 230571
+Friedman Sara heeft fiets met id: 423 teruggebracht naar station: 230571
+Thompson Andrew heeft fiets met id: 3113 meegenomen uit station: 230725 met slotnr: 0
+Thompson Andrew heeft fiets met id: 3113 teruggebracht naar station: 230641
+Friedman Sara heeft fiets met id: 922 meegenomen uit station: 230582 met slotnr: 1
+Friedman Sara heeft fiets met id: 923 meegenomen uit station: 230582 met slotnr: 2
+Friedman Sara heeft fiets met id: 924 meegenomen uit station: 230582 met slotnr: 3
+Friedman Sara heeft fiets met id: 925 meegenomen uit station: 230582 met slotnr: 5
+Friedman Sara heeft fiets met id: 926 meegenomen uit station: 230582 met slotnr: 6
+Friedman Sara heeft fiets met id: 927 meegenomen uit station: 230582 met slotnr: 7
+Friedman Sara heeft fiets met id: 928 meegenomen uit station: 230582 met slotnr: 8
+Friedman Sara heeft fiets met id: 929 meegenomen uit station: 230582 met slotnr: 9
+Friedman Sara heeft fiets met id: 930 meegenomen uit station: 230582 met slotnr: 10
+Friedman Sara heeft fiets met id: 922 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 923 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 924 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 925 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 926 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 927 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 928 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 929 teruggebracht naar station: 230588
+Friedman Sara heeft fiets met id: 930 teruggebracht naar station: 230588
+Chapman James heeft fiets met id: 1032 meegenomen uit station: 230591 met slotnr: 1
+Morrissette Mitzie heeft fiets met id: 4858 meegenomen uit station: 230825 met slotnr: 1
+Mitchum Sheila heeft fiets met id: 3680 meegenomen uit station: 230758 met slotnr: 0
+Stevens Fernando heeft fiets met id: 454 meegenomen uit station: 230553 met slotnr: 0
+Morrissette Mitzie heeft fiets met id: 4858 teruggebracht naar station: 230822
+Friedman Sara heeft fiets met id: 1327 meegenomen uit station: 230614 met slotnr: 0
+Friedman Sara heeft fiets met id: 1328 meegenomen uit station: 230614 met slotnr: 1
+Friedman Sara heeft fiets met id: 1329 meegenomen uit station: 230614 met slotnr: 2
+Friedman Sara heeft fiets met id: 1330 meegenomen uit station: 230614 met slotnr: 3
+Friedman Sara heeft fiets met id: 1331 meegenomen uit station: 230614 met slotnr: 4
+Friedman Sara heeft fiets met id: 1327 teruggebracht naar station: 230553
+Friedman Sara heeft fiets met id: 1328 teruggebracht naar station: 230553
+Friedman Sara heeft fiets met id: 1329 teruggebracht naar station: 230553
+Friedman Sara heeft fiets met id: 1330 teruggebracht naar station: 230553
+Friedman Sara heeft fiets met id: 1331 teruggebracht naar station: 230553
+Morrissette Mitzie heeft fiets met id: 369 meegenomen uit station: 230547 met slotnr: 0
+Davis Maryjane heeft fiets met id: 3514 meegenomen uit station: 230749 met slotnr: 1
+Norris Albert heeft fiets met id: 4903 meegenomen uit station: 230828 met slotnr: 3
+Mitchum Sheila heeft fiets met id: 3680 teruggebracht naar station: 230726
+Friedman Sara heeft fiets met id: 1523 meegenomen uit station: 230628 met slotnr: 0
+Friedman Sara heeft fiets met id: 1524 meegenomen uit station: 230628 met slotnr: 2
+Friedman Sara heeft fiets met id: 1525 meegenomen uit station: 230628 met slotnr: 3
+Friedman Sara heeft fiets met id: 1526 meegenomen uit station: 230628 met slotnr: 4
+Friedman Sara heeft fiets met id: 1527 meegenomen uit station: 230628 met slotnr: 6
+Friedman Sara heeft fiets met id: 1528 meegenomen uit station: 230628 met slotnr: 7
+Friedman Sara heeft fiets met id: 1529 meegenomen uit station: 230628 met slotnr: 8
+Friedman Sara heeft fiets met id: 1523 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1524 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1525 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1526 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1527 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1528 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1529 teruggebracht naar station: 230594
+Thompson Andrew heeft fiets met id: 4421 meegenomen uit station: 230800 met slotnr: 1
+Larson Joseph heeft fiets met id: 3095 meegenomen uit station: 230724 met slotnr: 1
+Morrissette Mitzie heeft fiets met id: 369 teruggebracht naar station: 230812
+Friedman Sara heeft fiets met id: 2417 meegenomen uit station: 230686 met slotnr: 0
+Friedman Sara heeft fiets met id: 2418 meegenomen uit station: 230686 met slotnr: 1
+Friedman Sara heeft fiets met id: 2419 meegenomen uit station: 230686 met slotnr: 3
+Friedman Sara heeft fiets met id: 2420 meegenomen uit station: 230686 met slotnr: 4
+Friedman Sara heeft fiets met id: 2421 meegenomen uit station: 230686 met slotnr: 5
+Friedman Sara heeft fiets met id: 2422 meegenomen uit station: 230686 met slotnr: 7
+Friedman Sara heeft fiets met id: 2423 meegenomen uit station: 230686 met slotnr: 8
+Friedman Sara heeft fiets met id: 2424 meegenomen uit station: 230686 met slotnr: 9
+Friedman Sara heeft fiets met id: 2425 meegenomen uit station: 230686 met slotnr: 11
+Friedman Sara heeft fiets met id: 2417 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2418 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2419 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2420 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2421 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2422 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2423 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2424 teruggebracht naar station: 230610
+Friedman Sara heeft fiets met id: 2425 teruggebracht naar station: 230610
+Light Wayne heeft fiets met id: 2324 meegenomen uit station: 230681 met slotnr: 1
+Youngs Dennis heeft fiets met id: 3904 meegenomen uit station: 230771 met slotnr: 0
+Davis Maryjane heeft fiets met id: 3514 teruggebracht naar station: 230594
+Friedman Sara heeft fiets met id: 1290 meegenomen uit station: 230610 met slotnr: 0
+Friedman Sara heeft fiets met id: 2417 meegenomen uit station: 230610 met slotnr: 1
+Friedman Sara heeft fiets met id: 2418 meegenomen uit station: 230610 met slotnr: 2
+Friedman Sara heeft fiets met id: 2419 meegenomen uit station: 230610 met slotnr: 3
+Friedman Sara heeft fiets met id: 2420 meegenomen uit station: 230610 met slotnr: 4
+Friedman Sara heeft fiets met id: 1290 teruggebracht naar station: 230644
+Friedman Sara heeft fiets met id: 2417 teruggebracht naar station: 230644
+Friedman Sara heeft fiets met id: 2418 teruggebracht naar station: 230644
+Friedman Sara heeft fiets met id: 2419 teruggebracht naar station: 230644
+Friedman Sara heeft fiets met id: 2420 teruggebracht naar station: 230644
+Morrissette Mitzie heeft fiets met id: 1320 meegenomen uit station: 230613 met slotnr: 0
+Mitchum Sheila heeft fiets met id: 4765 meegenomen uit station: 230820 met slotnr: 0
+Davis Maryjane heeft fiets met id: 955 meegenomen uit station: 230584 met slotnr: 4
+Youngs Dennis heeft fiets met id: 3904 teruggebracht naar station: 230816
+Youngs Dennis heeft fiets met id: 862 meegenomen uit station: 230578 met slotnr: 2
+Norris Albert heeft fiets met id: 4903 teruggebracht naar station: 230541
+Norris Albert heeft fiets met id: 1181 meegenomen uit station: 230602 met slotnr: 0
+Chapman James heeft fiets met id: 1032 teruggebracht naar station: 230626
+Chapman James heeft fiets met id: 1143 meegenomen uit station: 230599 met slotnr: 1
+Morrissette Mitzie heeft fiets met id: 1320 teruggebracht naar station: 230787
+Morrissette Mitzie heeft fiets met id: 656 meegenomen uit station: 230566 met slotnr: 0
+Morrissette Mitzie heeft fiets met id: 656 teruggebracht naar station: 230662
+Morrissette Mitzie heeft fiets met id: 4530 meegenomen uit station: 230807 met slotnr: 0
+Chapman James heeft fiets met id: 1143 teruggebracht naar station: 230720
+Chapman James heeft fiets met id: 3035 meegenomen uit station: 230721 met slotnr: 0
+Larson Joseph heeft fiets met id: 3095 teruggebracht naar station: 230600
+Larson Joseph heeft fiets met id: 1387 meegenomen uit station: 230618 met slotnr: 0
+Thompson Andrew heeft fiets met id: 4421 teruggebracht naar station: 230679
+Thompson Andrew heeft fiets met id: 2162 meegenomen uit station: 230672 met slotnr: 0
+Morrissette Mitzie heeft fiets met id: 4530 teruggebracht naar station: 230732
+Morrissette Mitzie heeft fiets met id: 1436 meegenomen uit station: 230622 met slotnr: 0
+Davis Maryjane heeft fiets met id: 955 teruggebracht naar station: 230737
+Light Wayne heeft fiets met id: 2324 teruggebracht naar station: 230785
+Light Wayne heeft fiets met id: 1768 meegenomen uit station: 230643 met slotnr: 0
+Thompson Andrew heeft fiets met id: 2162 teruggebracht naar station: 230683
+Davis Maryjane heeft fiets met id: 2163 meegenomen uit station: 230672 met slotnr: 1
+Davis Maryjane heeft fiets met id: 2163 teruggebracht naar station: 230782
+Thompson Andrew heeft fiets met id: 2662 meegenomen uit station: 230700 met slotnr: 0
+Davis Maryjane heeft fiets met id: 151 meegenomen uit station: 230533 met slotnr: 4
+Stevens Fernando heeft fiets met id: 454 teruggebracht naar station: 230755
+Stevens Fernando heeft fiets met id: 2724 meegenomen uit station: 230703 met slotnr: 0
+Stevens Fernando heeft fiets met id: 2724 teruggebracht naar station: 230668
+Wyatt Byron heeft fiets met id: 2140 meegenomen uit station: 230670 met slotnr: 0
+Wyatt Byron heeft fiets met id: 2141 meegenomen uit station: 230670 met slotnr: 1
+Wyatt Byron heeft fiets met id: 2142 meegenomen uit station: 230670 met slotnr: 2
+Wyatt Byron heeft fiets met id: 2143 meegenomen uit station: 230670 met slotnr: 3
+Wyatt Byron heeft fiets met id: 2144 meegenomen uit station: 230670 met slotnr: 4
+Wyatt Byron heeft fiets met id: 2140 teruggebracht naar station: 230529
+Wyatt Byron heeft fiets met id: 2141 teruggebracht naar station: 230529
+Wyatt Byron heeft fiets met id: 2142 teruggebracht naar station: 230529
+Wyatt Byron heeft fiets met id: 2143 teruggebracht naar station: 230529
+Wyatt Byron heeft fiets met id: 2144 teruggebracht naar station: 230529
+Hults Lela heeft fiets met id: 51 meegenomen uit station: 230526 met slotnr: 0
+Balderas Alice heeft fiets met id: 3297 meegenomen uit station: 230738 met slotnr: 0
+Glantz Linda heeft fiets met id: 4264 meegenomen uit station: 230791 met slotnr: 0
+Trinkle Alicia heeft fiets met id: 4074 meegenomen uit station: 230780 met slotnr: 0
+Glantz Linda heeft fiets met id: 4264 teruggebracht naar station: 230681
+Santana Maryjo heeft fiets met id: 702 meegenomen uit station: 230568 met slotnr: 0
+Beavers Sharon heeft fiets met id: 408 meegenomen uit station: 230550 met slotnr: 0
+Rawlins Dinah heeft fiets met id: 1695 meegenomen uit station: 230639 met slotnr: 0
+Hults Lela heeft fiets met id: 51 teruggebracht naar station: 230803
+Sneed Veronica heeft fiets met id: 3383 meegenomen uit station: 230743 met slotnr: 0
+Jackson Robert heeft fiets met id: 1230 meegenomen uit station: 230603 met slotnr: 0
+Conklin Raymond heeft fiets met id: 919 meegenomen uit station: 230580 met slotnr: 1
+Gee Viola heeft fiets met id: 1518 meegenomen uit station: 230627 met slotnr: 1
+Gonzales Daniel heeft fiets met id: 986 meegenomen uit station: 230584 met slotnr: 0
+Gonzales Daniel heeft fiets met id: 986 teruggebracht naar station: 230667
+Ward Howard heeft fiets met id: 265 meegenomen uit station: 230541 met slotnr: 1
+Glantz Linda heeft fiets met id: 2056 meegenomen uit station: 230664 met slotnr: 5
+Muise Jacqueline heeft fiets met id: 651 meegenomen uit station: 230565 met slotnr: 0
+Nitcher Jennie heeft fiets met id: 3545 meegenomen uit station: 230752 met slotnr: 0
+Santana Maryjo heeft fiets met id: 702 teruggebracht naar station: 230605
+Hults Lela heeft fiets met id: 3581 meegenomen uit station: 230754 met slotnr: 0
+Balderas Alice heeft fiets met id: 3297 teruggebracht naar station: 230770
+West Mabel heeft fiets met id: 954 meegenomen uit station: 230582 met slotnr: 2
+Gonzales Daniel heeft fiets met id: 2074 meegenomen uit station: 230666 met slotnr: 0
+Sole Helen heeft fiets met id: 671 meegenomen uit station: 230566 met slotnr: 1
+Burgess James heeft fiets met id: 886 meegenomen uit station: 230578 met slotnr: 2
+Jackson Robert heeft fiets met id: 1230 teruggebracht naar station: 230668
+Watkins Nannie heeft fiets met id: 3819 meegenomen uit station: 230766 met slotnr: 0
+Carver Peggy heeft fiets met id: 2430 meegenomen uit station: 230687 met slotnr: 0
+Jackson Robert heeft fiets met id: 1160 meegenomen uit station: 230598 met slotnr: 3
+Santana Maryjo heeft fiets met id: 2593 meegenomen uit station: 230696 met slotnr: 1
+Balderas Alice heeft fiets met id: 2503 meegenomen uit station: 230691 met slotnr: 0
+Balderas Alice heeft fiets met id: 2503 teruggebracht naar station: 230539
+Balderas Alice heeft fiets met id: 3384 meegenomen uit station: 230743 met slotnr: 1
+Jackson Robert heeft fiets met id: 1160 teruggebracht naar station: 230764
+Jackson Robert heeft fiets met id: 4751 meegenomen uit station: 230818 met slotnr: 0
+Watkins Nannie heeft fiets met id: 3819 teruggebracht naar station: 230677
+Watkins Nannie heeft fiets met id: 1898 meegenomen uit station: 230653 met slotnr: 5
+Muise Jacqueline heeft fiets met id: 651 teruggebracht naar station: 230630
+Muise Jacqueline heeft fiets met id: 858 meegenomen uit station: 230576 met slotnr: 0
+Glantz Linda heeft fiets met id: 2056 teruggebracht naar station: 230754
+Glantz Linda heeft fiets met id: 4691 meegenomen uit station: 230815 met slotnr: 0
+Nitcher Jennie heeft fiets met id: 3545 teruggebracht naar station: 230795
+Nitcher Jennie heeft fiets met id: 2447 meegenomen uit station: 230688 met slotnr: 1
+Gonzales Daniel heeft fiets met id: 2074 teruggebracht naar station: 230795
+Gonzales Daniel heeft fiets met id: 2542 meegenomen uit station: 230693 met slotnr: 0
+Burgess James heeft fiets met id: 886 teruggebracht naar station: 230633
+Burgess James heeft fiets met id: 3419 meegenomen uit station: 230745 met slotnr: 0
+Nitcher Jennie heeft fiets met id: 2447 teruggebracht naar station: 230789
+Nitcher Jennie heeft fiets met id: 1283 meegenomen uit station: 230607 met slotnr: 2
+Rawlins Dinah heeft fiets met id: 1695 teruggebracht naar station: 230591
+Rawlins Dinah heeft fiets met id: 4536 meegenomen uit station: 230806 met slotnr: 1
+Muise Jacqueline heeft fiets met id: 858 teruggebracht naar station: 230620
+Muise Jacqueline heeft fiets met id: 620 meegenomen uit station: 230563 met slotnr: 0
+Sneed Veronica heeft fiets met id: 3383 teruggebracht naar station: 230783
+Sneed Veronica heeft fiets met id: 1527 meegenomen uit station: 230628 met slotnr: 2
+Jackson Robert heeft fiets met id: 4751 teruggebracht naar station: 230754
+Jackson Robert heeft fiets met id: 1176 meegenomen uit station: 230599 met slotnr: 0
+Sole Helen heeft fiets met id: 671 teruggebracht naar station: 230539
+Sole Helen heeft fiets met id: 3562 meegenomen uit station: 230753 met slotnr: 0
+Nitcher Jennie heeft fiets met id: 1283 teruggebracht naar station: 230733
+Nitcher Jennie heeft fiets met id: 4849 meegenomen uit station: 230823 met slotnr: 2
+Carver Peggy heeft fiets met id: 2430 teruggebracht naar station: 230621
+Trinkle Alicia heeft fiets met id: 4074 teruggebracht naar station: 230572
+Wyatt Byron heeft fiets met id: 4074 meegenomen uit station: 230572 met slotnr: 0
+Wyatt Byron heeft fiets met id: 785 meegenomen uit station: 230572 met slotnr: 1
+Wyatt Byron heeft fiets met id: 786 meegenomen uit station: 230572 met slotnr: 2
+Wyatt Byron heeft fiets met id: 787 meegenomen uit station: 230572 met slotnr: 3
+Wyatt Byron heeft fiets met id: 788 meegenomen uit station: 230572 met slotnr: 4
+Wyatt Byron heeft fiets met id: 789 meegenomen uit station: 230572 met slotnr: 9
+Wyatt Byron heeft fiets met id: 4074 teruggebracht naar station: 230539
+Wyatt Byron heeft fiets met id: 785 teruggebracht naar station: 230539
+Wyatt Byron heeft fiets met id: 786 teruggebracht naar station: 230539
+Wyatt Byron heeft fiets met id: 787 teruggebracht naar station: 230539
+Wyatt Byron heeft fiets met id: 788 teruggebracht naar station: 230539
+Wyatt Byron heeft fiets met id: 789 teruggebracht naar station: 230539
+Carver Peggy heeft fiets met id: 4265 meegenomen uit station: 230791 met slotnr: 1
+Nitcher Jennie heeft fiets met id: 4849 teruggebracht naar station: 230647
+Nitcher Jennie heeft fiets met id: 422 meegenomen uit station: 230551 met slotnr: 0
+Muise Jacqueline heeft fiets met id: 620 teruggebracht naar station: 230744
+Muise Jacqueline heeft fiets met id: 2637 meegenomen uit station: 230698 met slotnr: 0
+Santana Maryjo heeft fiets met id: 2593 teruggebracht naar station: 230829
+Trinkle Alicia heeft fiets met id: 2431 meegenomen uit station: 230687 met slotnr: 1
+Santana Maryjo heeft fiets met id: 4243 meegenomen uit station: 230790 met slotnr: 0
+Beavers Sharon heeft fiets met id: 408 teruggebracht naar station: 230615
+Beavers Sharon heeft fiets met id: 3781 meegenomen uit station: 230764 met slotnr: 0
+Nitcher Jennie heeft fiets met id: 422 teruggebracht naar station: 230691
+Nitcher Jennie heeft fiets met id: 3346 meegenomen uit station: 230741 met slotnr: 0
+Muise Jacqueline heeft fiets met id: 2637 teruggebracht naar station: 230617
+Muise Jacqueline heeft fiets met id: 1098 meegenomen uit station: 230593 met slotnr: 0
+Glantz Linda heeft fiets met id: 4691 teruggebracht naar station: 230712

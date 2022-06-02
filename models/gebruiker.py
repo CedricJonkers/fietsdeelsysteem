@@ -10,7 +10,7 @@ class Gebruiker():
         self.tijd_bezig = tijd_bezig
 
     def __repr__(self):
-            return f"{self.functie}: {self.achternaam} {self.voornaam} heeft de fiets {self.tijd_bezig} minuten gebruikt."
+            return f"{self.functie}: {self.achternaam} {self.voornaam} gebruikte tijd: {self.tijd_bezig}"
 
 class Gebruikers():
     def __init__(self):
@@ -30,7 +30,7 @@ class Gebruikers():
                     'achternaam': achternaam,
                     'voornaam': voornaam,
                     'functie': gebruiker.functie,
-                    'tijd_bezig': tijd_bezig
+                    'tijd_bezig': str(tijd_bezig)
                     })
                 print(f"generating gebruikers({i}/{aantal_gebruikers})")
                 os.system('cls')
@@ -51,7 +51,7 @@ class Gebruikers():
                     'achternaam': gebr.achternaam,
                     'voornaam': gebr.voornaam,
                     'functie': gebr.functie,
-                    'tijd_bezig': gebr.tijd_bezig
+                    'tijd_bezig': str(gebr.tijd_bezig)
                     })
                 count+=1
             with open("dataset_save\gebruikers.json", 'w') as outfile:

@@ -8,6 +8,7 @@ import models.gebruiker as gebruiker
 import random
 import json
 import sys
+from datetime import datetime
 
 from models.tijd import Tijd
 
@@ -360,6 +361,7 @@ class Stations():
             for i in range(0, random.randint(1, 5)):
                 gebruiker = self.geef_gebruiker(gebruikers)
                 if (gebruiker != None):
+                    gebruiker.tijd_bezig = datetime.today().replace(microsecond=0)
                     station_begin = self.geef_station()
                     id = station_begin.geef_fiets(gebruiker, self)
                     logger.Logger().log_to_file(str(gebruiker.achternaam + " " + gebruiker.voornaam +" heeft fiets met id: " + str(id.fiets_id) + " meegenomen uit station: " + str(station_begin.id) + " met slotnr: " + str(id.nummer)))
@@ -369,6 +371,9 @@ class Stations():
             gebruiker_stop = gebruikers_met_fiets[index]
             station_eind = self.geef_station()
             if (station_eind.check_leeg_slot() != -1 and gebruiker_stop.gebruiker != None):
+                stop_tijd = datetime.today().replace(microsecond=0)
+                tijd_totaal = stop_tijd - gebruiker_stop.gebruiker.tijd_bezig
+                gebruiker_stop.gebruiker.tijd_bezig = tijd_totaal
                 station_eind.voeg_plaats_toe(station_eind.check_leeg_slot(), self.zoek_fiets_gebruiker(gebruiker_stop.gebruiker))
             self.verwijder_fiets(gebruiker_stop.gebruiker, station_eind)
 

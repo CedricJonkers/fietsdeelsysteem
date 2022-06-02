@@ -178,6 +178,7 @@ class Stations():
                 })
                 count += 1
             with open("dataset_save\stations.json", 'w') as outfile:
+                outfile.truncate(0)
                 json.dump(data, outfile, indent=4)
         except:
             print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")

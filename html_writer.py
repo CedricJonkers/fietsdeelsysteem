@@ -24,8 +24,7 @@ class htmlWriter():
                     row_data += '\n <td class = "number_column">' + \
                         str(x.iloc[i, j])+'</td>'
         return row_data
-
-    def create_html_page(self, html_table, df, map):
+    def create_html_page(self, html_table, df, map, button_link, button_name):
         html_file = '''
 
 <!DOCTYPE html>
@@ -53,6 +52,11 @@ th, td {
 .text_column {
   text-align: left;
 }
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
 
 .number_column {
   text-align: right;
@@ -73,14 +77,13 @@ th, td {
 <table>
   <thead>
     <tr class = "header">
-      <th class = "text_column">'''+df.columns[0]+'''</th>
+      <th class = "text_column">'''+df.columns[0]+'''<button type="button" onclick="window.location.href='http://localhost:5500/_site/''' + str(button_link) + '''.html'">'''+str(button_name)+'''</button></th>
     </tr>
   </thead>
   <tbody>
 ''' + html_table + '''
   </tbody>
   </table>
-
 </div>
 
 </div>

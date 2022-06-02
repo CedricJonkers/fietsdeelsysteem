@@ -7,6 +7,7 @@ import sys, os
 import pandas as pd
 import html_writer as html_writer
 import sys
+import logger
 
 
 class App():
@@ -16,17 +17,35 @@ class App():
         self.station = station.Station(0, "Baron Sadoinestraat (2660)","",0,0,0)
         self.stations = station.Stations()
         self.station_data = self.stations.read_stations()
-        aantal_gebruikers = int(input('Hoeveel gebruikers wilt u: '))
-        self.gebruikers_data = self.gebruikers_list.generate_gebruikers(aantal_gebruikers)
-        self.fietstransporteurs_data = self.fietstransporteurs_list.generate_fietstransporteurs()
+        data = input("Wilt u de vorige configuratie gebruiken?(y/n)")
+        if (data == "y"):
+            self.gebruikers_data = self.gebruikers_list.read_gebruikers()
+            self.fietstransporteurs_data = self.fietstransporteurs_list.read_fietstransporteurs()
+            self.stations.initialise_stations(self.gebruikers_list)
+        else:
+            aantal_gebruikers = int(input('Hoeveel gebruikers wilt u? '))
+            self.gebruikers_data = self.gebruikers_list.generate_gebruikers(aantal_gebruikers)
+            aantal_fietstransporteurs = int(input('Hoeveel fietstransporteurs wilt u? '))
+            self.fietstransporteurs_data = self.fietstransporteurs_list.generate_fietstransporteurs(aantal_fietstransporteurs)
+            self.stations.add_slots_bikes(self.fietstransporteurs_data)
 
 
 mijn_app = App()
-mijn_app.stations.add_slots_bikes(mijn_app.fietstransporteurs_data)
 
-if len(sys.argv) == 2:
-    for i in range(0,1000):
+if len(sys.argv) == 2 and sys.argv[1] == "sim":
+    mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
+    opnieuw = input("Wilt u de simulatie nog eens runnen?(Y/N)")
+    while opnieuw != "N":
+        opnieuw = input("Wilt u de simulatie nog eens runnen?(Y/N)")
         mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
+    if (opnieuw == "N"):
+        mijn_app.gebruikers_list.save_gebruikers()
+        mijn_app.fietstransporteurs_list.save_fietstransporteurs()
+        mijn_app.stations.save_stations()
+        print("\nExit code....")
+        exit()
+            
+
 
 
 #os.system('cls')
@@ -40,8 +59,7 @@ option_menu = {
     7: 'verplaats fietsen',
     8: 'generate html',
     9: 'simulatie',
-    10: 'save',
-    11: 'exit'
+    10: 'save and exit '
 }
 
 sub_option_menu = {
@@ -53,7 +71,6 @@ sub_option_menu = {
 
 def print_options(y, tekst):
     size = os.get_terminal_size()
-    print(size.columns)
     for x in range(round(size.columns/2)):
         print("-", end="")
     print(tekst, end= "")
@@ -76,6 +93,7 @@ while(True):
 
     if option == 1:
         list_g = mijn_app.gebruikers_list.toon_gebruikers()
+
 
     elif option == 2:
         list_s = mijn_app.stations.toon_stations()
@@ -137,43 +155,66 @@ while(True):
             print("option", option, "\n")
         if option == 1:
             fie_id = int(input('Geef je fietsid: '))
-            fie = mijn_app.stations.check_fiets(fie_id)
-            df = pd.DataFrame({'fiets':[fie]})
-            html_table = html_writer.htmlWriter().create_html_table(df)
-            html_writer.htmlWriter().create_html_page(html_table, df, fie.id)
-            os.system(f"start _site/{fie_id}.html")
+            obj = [mijn_app.stations.check_fiets(fie_id)]
+            bestand_naam = obj[0].id
+            tabel_naam = "fiets " + str(bestand_naam)
+            log_zoek = bestand_naam
         elif option == 2:
-                gebr = input('Geef je naam: ')
-                user = mijn_app.gebruikers_list.zoek_op_naam(gebr)
-                fie_id = mijn_app.stations.zoek_fiets_gebruiker(user)
-                fie = mijn_app.stations.check_fiets(fie_id)
-                df = pd.DataFrame({'gebruiker':[fie]})
-                html_table = html_writer.htmlWriter().create_html_table(df)
-                print(fie.gebruiker)
-                html_writer.htmlWriter().create_html_page(html_table, df, fie.gebruiker.voornaam)
-                os.system(f"start _site/{fie.gebruiker.voornaam}.html")
+            gebr = input('Geef je naam: ')
+            user = mijn_app.gebruikers_list.zoek_op_naam(gebr)
+            fie_id = mijn_app.stations.zoek_fiets_gebruiker(user)
+            obj = [mijn_app.stations.check_fiets(fie_id)]
+            try:
+                bestand_naam = user.voornaam
+                tabel_naam = "gebruiker: " + bestand_naam +" "+ user.achternaam
+                log_zoek = user.achternaam + " " +bestand_naam
+            except:
+                print("Deze gebruiker bestaat niet")
+                break
         elif option == 3:
-                stat = input('Geef je station: ')
-                mijn_station = mijn_app.stations.zoek_op_id(stat)
-                df = pd.DataFrame({'slots':mijn_station.check_slot()})
-                html_table = html_writer.htmlWriter().create_html_table(df)
-                html_writer.htmlWriter().create_html_page(html_table, df, mijn_station.id)
-                os.system(f"start _site/{mijn_station.id}.html")
+            stat = input('Geef je station id: ')
+            cur_station = mijn_app.stations.zoek_op_id(stat)
+            cur_fietsen = cur_station.check_fiets_station()
+            obj = cur_station.check_slot()
+            tabel_naam = f"{cur_station.id}  : locatie: {cur_station.straatnaam}, {cur_station.postcode} {cur_station.district}"
+            bestand_naam = cur_station.id
+            fietsen_naam = str("fietsen" + str(cur_station.id))
+            log_zoek = str(cur_station.id)
+            df_fietsen = pd.DataFrame({"fietsen":cur_fietsen})
+            html_table_fietsen = html_writer.htmlWriter().create_html_table(df_fietsen)
+            html_writer.htmlWriter().create_html_page(html_table_fietsen, df_fietsen, fietsen_naam,bestand_naam, "Home")
+        
+        try:
+            log_button = "log"
+            try:
+                log_button = "log" + str(bestand_naam)
+                logs = logger.Logger().read_by_name(str(log_zoek))
+                df_log = pd.DataFrame({'log':logs})
+                html_table_log = html_writer.htmlWriter().create_html_table(df_log)
+                if (option == 3):
+                    html_writer.htmlWriter().create_html_page(html_table_log, df_log,log_button, fietsen_naam,"Fietsen log")
+                else:
+                    html_writer.htmlWriter().create_html_page(html_table_log, df_log,log_button, bestand_naam,"Back")
+            except:
+                print("geen logs")
+            df = pd.DataFrame({tabel_naam:obj})
+            html_table = html_writer.htmlWriter().create_html_table(df)
+            html_writer.htmlWriter().create_html_page(html_table, df, bestand_naam,log_button,"See logs")
+            os.system(f"start _site/{bestand_naam}.html")
+        except:
+            print("Er is iets fout gelopen")
 
     elif option == 9:
-        for i in range(0,10):
-            mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
+        mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 
     elif option == 10:
         mijn_app.gebruikers_list.save_gebruikers()
         mijn_app.fietstransporteurs_list.save_fietstransporteurs()
         mijn_app.stations.save_stations()
-
-    elif option == 11:
-        print("Exit code....")
+        print("\nExit code....")
         exit()
     else:
         print('invalid option:', option, 'Try again...')
     
-    if __name__ == "__main__":
-        main()
+    # if __name__ == "__main__":
+    #     main()

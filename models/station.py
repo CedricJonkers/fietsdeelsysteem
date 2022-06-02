@@ -7,6 +7,7 @@ import logger as logger
 import models.gebruiker as gebruiker
 import random
 import json
+import sys
 
 from models.tijd import Tijd
 
@@ -108,13 +109,22 @@ class Station():
         data = []
         for s in self.slots:
             data.append({
-                'slot': {
                     'id': s.nummer,
                     'bezet': s.bezet,
                     'fiets': s.fiets_id
-                }
             })
-        print(data)
+        return data
+
+    # fietsen to stations json
+    def save_fietsen(self):
+        data = []
+        for s in self.fietsen:
+            gebr = str(s.gebruiker.achternaam + " " + s.gebruiker.voornaam)
+            data.append({
+                    'gebruiker': gebr,
+                    'in_gebruik': s.in_gebruik,
+                    'id': s.id
+            })
         return data
 
     def __str__(self):
@@ -130,13 +140,6 @@ class Stations():
         fileObject = open(r"dataset_default\velo_data.json", "r")
         jsonContent = fileObject.read()
         station_bestand = json.loads(jsonContent)
-        id = ""
-        straatnaam = ""
-        district = ""
-        postcode = ""
-        objectcode = ""
-        aantal_slots = 0
-        station = ""
         for station in station_bestand:
             id = station['properties']['OBJECTID']
             straatnaam = station['properties']['Straatnaam']
@@ -158,6 +161,8 @@ class Stations():
         count = 0
         try:
             for key in list:
+                sys.stdout.write("\r" + "Saving data")
+                sys.stdout.flush()
                 stat = list[count]
                 data.append({
                     'properties': {
@@ -168,14 +173,32 @@ class Stations():
                         'Objectcode': stat.objectcode,
                         'Aantal_plaatsen': stat.aantal_slots,
                     },
-                    'slots': [stat.save_slots()]
+                    'slots': stat.save_slots(),
+                    'fietsen': stat.save_fietsen()
                 })
                 count += 1
             with open("dataset_save\stations.json", 'w') as outfile:
                 json.dump(data, outfile, indent=4)
         except:
-            print(
-                "Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")
+            print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")
+    
+    # read de stations als de configuratie werd opgeslagen
+    def initialise_stations(self, gebruikerslist):
+        fileObject = open(r"dataset_save\stations.json", "r")
+        jsonContent = fileObject.read()
+        station_bestand = json.loads(jsonContent)
+        count = 0
+        for station in station_bestand:
+            print(station['properties']['OBJECTID'])
+            cur_stat = self.zoek_op_id(station['properties']['OBJECTID'])
+            for i in station['slots']:
+                print(i['id'])
+                cur_stat.slots.append(slot.Slot(cur_stat.id, i['id'], i['bezet'], i['fiets']))
+                #cur_stat.fietsen.append(fiets.Fiets(gebr, False, f.id))
+            for x in station['fietsen']:
+                gebr = gebruikerslist.zoek_op_naam(x['gebruiker'])
+                cur_stat.fietsen.append(fiets.Fiets(gebr, x['in_gebruik'], x['id']))
+        print(cur_stat)
 
     # voegt bij het begin van de simulatie de fietsen en slots aan de stations
     def add_slots_bikes(self, transporteurslist):
@@ -212,12 +235,10 @@ class Stations():
             for s in stat_teveel.slots:
                 if (s.bezet == False):
                     if(count < round(len(aantal_fietsen)/2)):
-                        # print(stat_teveel)
                         f = stat_teveel.geef_fiets(fietstransporteur, self)
                         return_list.append(f)
-                        logger.Logger().log_to_file(str(fietstransporteur.achternaam + " " + fietstransporteur.voornaam +" heeft fiets met id: " + str(f.fiets_id) + " meegenomen uit station: " + str(stat_teveel.id)))
+                        logger.Logger().log_to_file(str(fietstransporteur.achternaam + " " + fietstransporteur.voornaam +" heeft fiets met id: " + str(f.fiets_id) + " meegenomen uit station: " + str(stat_teveel.id) +" met slotnr: " + str(f.nummer)))
                     count += 1
-        # print(return_list)
         return return_list
 
     # fietstransporteur voegt de fietsen in het nieuwe station
@@ -227,7 +248,7 @@ class Stations():
                 for i in range(0, len(fietsen)):
                     stat_teweinig.voeg_plaats_toe(
                         stat_teweinig.check_leeg_slot(), self.zoek_fiets_gebruiker(fietstransporteur))
-                    logger.Logger().log_to_file(str(fietstransporteur.achternaam + " " + fietstransporteur.voornaam +" heeft fiets met id: " + str(self.zoek_fiets_gebruiker(fietstransporteur)) + " toegevoegd aan station: " + str(stat_teweinig.id)))
+                    #logger.Logger().log_to_file(str(fietstransporteur.achternaam + " " + fietstransporteur.voornaam +" heeft fiets met id: " + str(self.zoek_fiets_gebruiker(fietstransporteur)) + " toegevoegd aan station: " + str(stat_teweinig.id)))
                     self.verwijder_fiets(fietstransporteur, stat_teweinig)
             return stat_teweinig.fietsen
 
@@ -278,10 +299,7 @@ class Stations():
                     if (gebr != None):
                         stat.fietsen.remove(f)
                         station.fietsen.append(fiets.Fiets(gebr, False, f.id))
-                        # print('-------')
-                        # print(
-                        #     f"{f.gebruiker.achternaam} {f.gebruiker.voornaam} heeft de fiets met id {f.id} succesvol terug gebracht op station met id {station.id}")
-                        # print('-------')
+                        logger.Logger().log_to_file(str(gebr.achternaam + " " + gebr.voornaam +" heeft fiets met id: " + str(f.id) + " teruggebracht naar station: " + str(station.id)))
                         return f"{f.gebruiker} heeft de fiets met id {f.id} succesvol terug gebracht op station met id {station.id}"
             count_stat += 1
 
@@ -327,46 +345,34 @@ class Stations():
         count = 0
         for key in list:
             sta = list[count]
-            # print(sta)
+            print(sta)
             count += 1
         return list
 
     def simulatie(self, gebruikers, fietstransporteurs):
-        # fietstransporteurs die kijken in de stations welke teveel fietsen hebben en welke er tewijnig hebben en verdelen deze
-        if (self.check_teweinig_fietsen() != None and self.check_teveel_fietsen() != None):
-            stat_teweinig = self.check_teweinig_fietsen()
-            stat_teveel = self.check_teveel_fietsen()
-            fietstransporteur = self.geef_gebruiker(fietstransporteurs)
-            fietsen = self.zet_fietsen_in_wagen(stat_teveel, fietstransporteur)
-            self.zet_fietsen_in_nieuw_station(fietsen, stat_teweinig, fietstransporteur)
-
-        # een aantal random gebruikers nemen een fiets
-        for i in range(0, random.randint(1, 5)):
-            gebruiker = self.geef_gebruiker(gebruikers)
-            if (gebruiker != None):
-                station_begin = self.geef_station()
-                id = station_begin.geef_fiets(gebruiker, self)
-                logger.Logger().log_to_file(str(gebruiker.achternaam + " " + gebruiker.voornaam +
-                                                " heeft een fiets gehaalt bij station " + str(station_begin.id) + " slot: " + str(id)))
-
-        # een gebruiker uit de gebruikers die een fiets hebben zet de fiets terug
-        gebruikers_met_fiets = self.check_fietsen_met_gebruiker()
-        index = random.randint(0, len(gebruikers_met_fiets)-1)
-        gebruiker_stop = gebruikers_met_fiets[index]
-        station_eind = self.geef_station()
-        tijd_f = Tijd.tijd_show()
-        #print(tijd_f)
-        if (station_eind.check_leeg_slot() != -1 and gebruiker_stop.gebruiker != None):
-            station_eind.voeg_plaats_toe(station_eind.check_leeg_slot(
-            ), self.zoek_fiets_gebruiker(gebruiker_stop.gebruiker))
-            # print(
-            #     f"fiets: {gebruiker_stop.id}: terug gebracht naar station met id: {station_eind.id} door {gebruiker_stop.gebruiker}")
+        for i in range(0,Tijd.wacht_tijd(1)):
+            # fietstransporteurs die kijken in de stations welke teveel fietsen hebben en welke er tewijnig hebben en verdelen deze
+            if (self.check_teweinig_fietsen() != None and self.check_teveel_fietsen() != None):
+                stat_teweinig = self.check_teweinig_fietsen()
+                stat_teveel = self.check_teveel_fietsen()
+                fietstransporteur = self.geef_gebruiker(fietstransporteurs)
+                fietsen = self.zet_fietsen_in_wagen(stat_teveel, fietstransporteur)
+                self.zet_fietsen_in_nieuw_station(fietsen, stat_teweinig, fietstransporteur)
+            # een aantal random gebruikers nemen een fiets
+            for i in range(0, random.randint(1, 5)):
+                gebruiker = self.geef_gebruiker(gebruikers)
+                if (gebruiker != None):
+                    station_begin = self.geef_station()
+                    id = station_begin.geef_fiets(gebruiker, self)
+                    logger.Logger().log_to_file(str(gebruiker.achternaam + " " + gebruiker.voornaam +" heeft fiets met id: " + str(id.fiets_id) + " meegenomen uit station: " + str(station_begin.id) + " met slotnr: " + str(id.nummer)))
+            # een gebruiker uit de gebruikers die een fiets hebben zet de fiets terug
+            gebruikers_met_fiets = self.check_fietsen_met_gebruiker()
+            index = random.randint(0, len(gebruikers_met_fiets)-1)
+            gebruiker_stop = gebruikers_met_fiets[index]
+            station_eind = self.geef_station()
+            if (station_eind.check_leeg_slot() != -1 and gebruiker_stop.gebruiker != None):
+                station_eind.voeg_plaats_toe(station_eind.check_leeg_slot(), self.zoek_fiets_gebruiker(gebruiker_stop.gebruiker))
             self.verwijder_fiets(gebruiker_stop.gebruiker, station_eind)
-            logger.Logger().log_to_file(str(gebruiker_stop.gebruiker.achternaam + " " +
-                                            gebruiker_stop.gebruiker.voornaam + " heeft een fiets teruggebracht bij station " + str(station_eind.id)))
-        else:
-            print(gebruikers_met_fiets)
-            print("station leeg, of elke gebruiker heeft een fiets")
 
     # geeft een random gebruiker uit de json voor de simulatie
     def geef_gebruiker(self, gebruikers):
@@ -389,12 +395,6 @@ class Stations():
                 if (s.in_gebruik == True and s.gebruiker != None):
                     gebruikers_met_fiets.append(s)
                     if (s.gebruiker == None):
-                        # print("----")
-                        # print(s)
-                        # print(gebruikers_met_fiets)
-                        # # gebruikers_met_fiets.remove(s)
-                        # print(gebruikers_met_fiets)
-                        # print("----")
                         exit()
             count += 1
         return gebruikers_met_fiets

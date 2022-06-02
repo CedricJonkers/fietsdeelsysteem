@@ -10,9 +10,6 @@ class Gebruiker():
         self.tijd_bezig = tijd_bezig
 
     def __repr__(self):
-        # if(int(self.tijd) <= 30):
-        #     return f"{self.functie}: {self.achternaam} {self.voornaam}"
-        # else:
             return f"{self.functie}: {self.achternaam} {self.voornaam} heeft de fiets {self.tijd_bezig} minuten gebruikt."
 
 class Gebruikers():
@@ -35,8 +32,8 @@ class Gebruikers():
                     'functie': gebruiker.functie,
                     'tijd_bezig': tijd_bezig
                     })
-                os.system('cls')
                 print(f"generating gebruikers({i}/{aantal_gebruikers})")
+                os.system('cls')
             with open("dataset_default\gebruikers.json", 'w') as outfile:
                 json.dump(data, outfile)
             return self.gebruikers
@@ -61,6 +58,20 @@ class Gebruikers():
                 json.dump(data, outfile, indent=4)
         except:
             print("Er heeft zich een probleem voorgedaan bij het wegschrijven naar het uitvoerbestand")
+    
+    def read_gebruikers(self):
+        fileObject = open(r"dataset_save\gebruikers.json", "r")
+        jsonContent = fileObject.read()
+        gebruikers_bestand = json.loads(jsonContent)
+        for gebr in gebruikers_bestand:
+            achternaam = gebr['achternaam']
+            voornaam = gebr['voornaam']
+            tijd_bezig = int(gebr['tijd_bezig'])
+            gebruiker = Gebruiker(achternaam, voornaam, tijd_bezig)
+            self.gebruikers.append(gebruiker)
+            print(f"reading gebruikers...")
+            os.system('cls')
+        return self.gebruikers
 
     def zoek_op_naam(self, naam):
         list = self.gebruikers

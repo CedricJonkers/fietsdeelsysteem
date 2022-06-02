@@ -189,12 +189,9 @@ class Stations():
         station_bestand = json.loads(jsonContent)
         count = 0
         for station in station_bestand:
-            print(station['properties']['OBJECTID'])
             cur_stat = self.zoek_op_id(station['properties']['OBJECTID'])
             for i in station['slots']:
-                print(i['id'])
                 cur_stat.slots.append(slot.Slot(cur_stat.id, i['id'], i['bezet'], i['fiets']))
-                #cur_stat.fietsen.append(fiets.Fiets(gebr, False, f.id))
             for x in station['fietsen']:
                 gebr = gebruikerslist.zoek_op_naam(x['gebruiker'])
                 cur_stat.fietsen.append(fiets.Fiets(gebr, x['in_gebruik'], x['id']))

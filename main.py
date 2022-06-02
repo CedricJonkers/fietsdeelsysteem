@@ -32,6 +32,7 @@ class App():
 
 mijn_app = App()
 
+# run simulatie met commandline argument
 if len(sys.argv) == 2 and sys.argv[1] == "sim":
     mijn_app.stations.simulatie(mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
     opnieuw = input("Wilt u de simulatie nog eens runnen?(Y/N)")
@@ -46,9 +47,6 @@ if len(sys.argv) == 2 and sys.argv[1] == "sim":
         exit()
             
 
-
-
-#os.system('cls')
 option_menu = {
     1: 'Toon gebruikers',
     2: 'Toon stations',
@@ -122,10 +120,9 @@ while(True):
         if(mijn_app.gebruikers_list.zoek_op_naam(gebr) != None):
           stat = input('Geef je station: ')
           mijn_station = mijn_app.stations.zoek_op_id(stat)
-          slot = input('Geef het slot nummer: ')
-          #id = mijn_app.stations.check_fiets_gebr(user)
-          mijn_station.voeg_plaats_toe(slot, id)
-          mijn_app.stations.verwijder_fiets(user, mijn_station)
+          if (mijn_station.check_leeg_slot() != -1 and user != None):
+              mijn_station.voeg_plaats_toe(mijn_station.check_leeg_slot(), mijn_app.stations.zoek_fiets_gebruiker(mijn_station.gebruiker))
+              mijn_app.stations.verwijder_fiets(user, mijn_station)
         else:
           print("Naam bestaat niet")
 
@@ -137,14 +134,16 @@ while(True):
     elif option == 7:
         naam = input("Geef je naam: ")
         transporteur = mijn_app.fietstransporteurs_list.zoek_op_naam(naam)
-        teveel = mijn_app.stations.check_teveel_fietsen()
-        teweinig = mijn_app.stations.check_teweinig_fietsen()
-        print(teveel)
-        print(teweinig)
-        fietsen = mijn_app.stations.zet_fietsen_in_wagen(teveel, transporteur)
-        print(fietsen)
-        mijn_app.stations.zet_fietsen_in_nieuw_station(fietsen,teweinig, transporteur)
-        print(teweinig)
+        try:
+            if (mijn_app.stations.check_teweinig_fietsen() != None and mijn_app.stations.check_teveel_fietsen() != None):
+                teveel = mijn_app.stations.check_teveel_fietsen()
+                teweinig = mijn_app.stations.check_teweinig_fietsen()
+                fietsen = mijn_app.stations.zet_fietsen_in_wagen(teveel, transporteur)
+                mijn_app.stations.zet_fietsen_in_nieuw_station(fietsen,teweinig, transporteur)
+            else:
+                print("Er vallen geen fietsen te verplaatsen")
+        except:
+            print("Er is iets fouts gegaan")
 
     elif option == 8:
         print_options(sub_option_menu,"Van welk onderdeel wil je een beeld krijgen: ")

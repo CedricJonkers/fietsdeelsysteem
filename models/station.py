@@ -359,7 +359,6 @@ class Stations():
             sys.stdout.write("\r" + animation[count % len(animation)])
             sys.stdout.flush()
             count+=1
-        #for i in range(0,Tijd.wacht_tijd(1)):
             # fietstransporteurs die kijken in de stations welke teveel fietsen hebben en welke er tewijnig hebben en verdelen deze
             if (self.check_teweinig_fietsen() != None and self.check_teveel_fietsen() != None):
                 stat_teweinig = self.check_teweinig_fietsen()

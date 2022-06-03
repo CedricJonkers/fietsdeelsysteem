@@ -57,7 +57,7 @@ button{
   display: block;
   margin-left: auto;
   margin-right: 0;
-  width: 80px;
+  width: 100px;
 }
 
 .number_column {

@@ -25,13 +25,7 @@ class Logger():
             with open("dataset_default\log.txt", "r") as bestand:
                 for regel in bestand:
                     if regel.find(name) != -1:
-                        print(name)
-                        print(regel)
-                        # if "\n" in regel:
-                        #     regel = regel[:-2]
-                        #     print(regel)
                         logs_naam.append(regel)
-                print(logs_naam)
                 return logs_naam
         except FileNotFoundError:
             print("Er is geen data bekend")

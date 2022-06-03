@@ -1,7 +1,13 @@
 [
     {
-        "achternaam": "Friedman",
-        "voornaam": "Sara",
+        "achternaam": "Young",
+        "voornaam": "David",
+        "functie": "fietstransporteur",
+        "tijd_bezig": 0
+    },
+    {
+        "achternaam": "Gray",
+        "voornaam": "Joseph",
         "functie": "fietstransporteur",
         "tijd_bezig": 0
     }

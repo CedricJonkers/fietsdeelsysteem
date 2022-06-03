@@ -1,6 +1,6 @@
 import time
 import sys
-import datetime
+from datetime import datetime, timedelta
 
 class Tijd():
     def __init__(self):
@@ -27,12 +27,3 @@ class Tijd():
             sys.stdout.write(str(i)+' ')
             sys.stdout.flush()
             time.sleep(1)
-    
-    def wacht_tijd(duur):
-        animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
-        for i in range(len(animation)*duur):
-            time.sleep(1)
-            sys.stdout.write("\r" + animation[i % len(animation)])
-            sys.stdout.flush()
-        print("\n")
-        return len(animation)*duur

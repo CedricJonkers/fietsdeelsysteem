@@ -8,7 +8,7 @@ import models.gebruiker as gebruiker
 import random
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from models.tijd import Tijd
 
@@ -129,7 +129,8 @@ class Station():
         return data
 
     def __str__(self):
-        return f"{self.id}  : locatie: {self.straatnaam}, {self.postcode} {self.district} , aantal slots: {self.aantal_slots}, aantal fietsen: {len(self.fietsen)}\n {self.slots}\n"
+        aantal_fietsen = [s for s in self.slots if s.bezet == True]
+        return f"{self.id}  : locatie: {self.straatnaam}, {self.postcode} {self.district} , aantal slots: {self.aantal_slots}, aantal fietsen: {len(aantal_fietsen)}\n {self.slots}\n"
 
 
 class Stations():
@@ -344,12 +345,21 @@ class Stations():
         count = 0
         for key in list:
             sta = list[count]
-            print(sta)
+            #print(sta)
             count += 1
         return list
 
     def simulatie(self, gebruikers, fietstransporteurs):
-        for i in range(0,Tijd.wacht_tijd(1)):
+        # tijd van de simulatie
+        animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
+        now = datetime.now().replace(microsecond=0)
+        now_plus_10 = now + timedelta(seconds= 10)
+        count = 0
+        while now_plus_10 - datetime.now().replace(microsecond=0) != timedelta(days = 0, minutes = 0, seconds = 0):
+            sys.stdout.write("\r" + animation[count % len(animation)])
+            sys.stdout.flush()
+            count+=1
+        #for i in range(0,Tijd.wacht_tijd(1)):
             # fietstransporteurs die kijken in de stations welke teveel fietsen hebben en welke er tewijnig hebben en verdelen deze
             if (self.check_teweinig_fietsen() != None and self.check_teveel_fietsen() != None):
                 stat_teweinig = self.check_teweinig_fietsen()
@@ -376,6 +386,7 @@ class Stations():
                 gebruiker_stop.gebruiker.tijd_bezig = tijd_totaal
                 station_eind.voeg_plaats_toe(station_eind.check_leeg_slot(), self.zoek_fiets_gebruiker(gebruiker_stop.gebruiker))
             self.verwijder_fiets(gebruiker_stop.gebruiker, station_eind)
+        print("\n")
 
     # geeft een random gebruiker uit de json voor de simulatie
     def geef_gebruiker(self, gebruikers):

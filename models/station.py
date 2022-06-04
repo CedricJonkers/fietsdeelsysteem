@@ -77,11 +77,12 @@ class Station():
         list_fietsen = self.fietsen
         count = 0
         for key in list_slots:
-            slo = list_slots[count]
+            slo_id = random.randint(0, len(list_slots)-1)
+            slo = list_slots[slo_id]
             if(slo.bezet == True):
                 list_slots.remove(slo)
-                list_slots.insert(count, slot.Slot(
-                    self.id, count, False, None))
+                list_slots.insert(slo_id, slot.Slot(
+                    self.id, slo_id, False, None))
                 x = stations.check_fiets(slo.fiets_id)
                 if (x in list_fietsen):
                     list_fietsen.remove(x)
@@ -91,6 +92,21 @@ class Station():
                     list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
                 return slo
             count += 1
+        # for key in list_slots:
+        #     slo = list_slots[count]
+        #     if(slo.bezet == True):
+        #         list_slots.remove(slo)
+        #         list_slots.insert(count, slot.Slot(
+        #             self.id, count, False, None))
+        #         x = stations.check_fiets(slo.fiets_id)
+        #         if (x in list_fietsen):
+        #             list_fietsen.remove(x)
+        #             list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
+        #         else:
+        #             stations.remove_fiets(slo.fiets_id)
+        #             list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
+        #         return slo
+        #     count += 1
 
     # een gebruiker zet de fiets terug
     def voeg_plaats_toe(self, slot_gegeven, fiets_id):
@@ -373,7 +389,8 @@ class Stations():
                     gebruiker.tijd_bezig = datetime.today().replace(microsecond=0)
                     station_begin = self.geef_station()
                     id = station_begin.geef_fiets(gebruiker, self)
-                    logger.Logger().log_to_file(str(gebruiker.achternaam + " " + gebruiker.voornaam +" heeft fiets met id: " + str(id.fiets_id) + " meegenomen uit station: " + str(station_begin.id) + " met slotnr: " + str(id.nummer)))
+                    if (id != None):
+                        logger.Logger().log_to_file(str(gebruiker.achternaam + " " + gebruiker.voornaam +" heeft fiets met id: " + str(id.fiets_id) + " meegenomen uit station: " + str(station_begin.id) + " met slotnr: " + str(id.nummer)))
             # een gebruiker uit de gebruikers die een fiets hebben zet de fiets terug
             gebruikers_met_fiets = self.check_fietsen_met_gebruiker()
             index = random.randint(0, len(gebruikers_met_fiets)-1)

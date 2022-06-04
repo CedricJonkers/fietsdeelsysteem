@@ -38,7 +38,7 @@ class App():
 mijn_app = App()
 
 # run simulatie met commandline argument
-if len(sys.argv) == 2 and sys.argv[1] == "sim":
+if len(sys.argv) == 2 and sys.argv[1] == "-s":
     mijn_app.stations.simulatie(
         mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)
 

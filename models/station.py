@@ -92,21 +92,6 @@ class Station():
                     list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
                 return slo
             count += 1
-        # for key in list_slots:
-        #     slo = list_slots[count]
-        #     if(slo.bezet == True):
-        #         list_slots.remove(slo)
-        #         list_slots.insert(count, slot.Slot(
-        #             self.id, count, False, None))
-        #         x = stations.check_fiets(slo.fiets_id)
-        #         if (x in list_fietsen):
-        #             list_fietsen.remove(x)
-        #             list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
-        #         else:
-        #             stations.remove_fiets(slo.fiets_id)
-        #             list_fietsen.append(fiets.Fiets(gebr, True, slo.fiets_id))
-        #         return slo
-        #     count += 1
 
     # een gebruiker zet de fiets terug
     def voeg_plaats_toe(self, slot_gegeven, fiets_id):
@@ -268,7 +253,7 @@ class Stations():
                     self.verwijder_fiets(fietstransporteur, stat_teweinig)
             return stat_teweinig.fietsen
 
-    # def zoekt naar een station met teveel fietsen (als het aantal fietsen groter is dan aantal slots/4/5) bv 24 fietsen >= 30*(4/5) -> teveel
+    # def zoekt naar een station met teveel fietsen (als het aantal fietsen groter is dan aantal slots*3/4)
     def check_teveel_fietsen(self):
         list = self.stations
         count = 0

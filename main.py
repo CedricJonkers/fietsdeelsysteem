@@ -125,12 +125,14 @@ while(True):
     elif option == 4:
         naam = input('Geef je naam: ')
         user = mijn_app.gebruikers_list.zoek_op_naam(naam)
+        print(mijn_app.gebruikers_list.zoek_op_naam(naam))
         if(mijn_app.gebruikers_list.zoek_op_naam(naam) != None and mijn_app.stations.check_fiets_gebruiker(user) != True):
             stat = int(input('Geef je station id: '))
             if (mijn_app.stations.zoek_op_id(stat) != None and mijn_app.stations.zoek_op_id(stat).check_slot_met_fiets() != 0):
                 mijn_station = mijn_app.stations.zoek_op_id(stat)
-                print("Beste", naam, mijn_station.geef_fiets(
-                    user, mijn_app.stations), ", je mag deze gebruiken.")
+                fiets_gebr = mijn_station.geef_fiets(user, mijn_app.stations)
+                print("Beste", naam, fiets_gebr, ", je mag deze gebruiken.")
+                logger.Logger().log_to_file(str(user.achternaam + " " + user.voornaam +" heeft fiets met id: " + str(fiets_gebr.fiets_id) + " meegenomen uit station: " + str(stat) + " met slotnr: " + str(fiets_gebr.nummer)))
             else:
                 print("dit station heeft geen fietsen meer of bestaat niet")
         else:
@@ -144,8 +146,9 @@ while(True):
             mijn_station = mijn_app.stations.zoek_op_id(stat)
             if (mijn_station.check_leeg_slot() != -1 and user != None):
                 mijn_station.voeg_plaats_toe(mijn_station.check_leeg_slot(
-                ), mijn_app.stations.zoek_fiets_gebruiker(mijn_station.gebruiker))
+                ), mijn_app.stations.zoek_fiets_gebruiker(user))
                 mijn_app.stations.verwijder_fiets(user, mijn_station)
+                print("Succesvol teruggebracht")
         else:
             print("Naam bestaat niet")
 
@@ -163,8 +166,11 @@ while(True):
                 teweinig = mijn_app.stations.check_teweinig_fietsen()
                 fietsen = mijn_app.stations.zet_fietsen_in_wagen(
                     teveel, transporteur)
+                print(f"Beste {naam}, je hebt succesvol {len(fietsen)} fietsen meegenomen uit station met id {teveel.id}")
                 mijn_app.stations.zet_fietsen_in_nieuw_station(
                     fietsen, teweinig, transporteur)
+                print(f"Beste {naam}, je hebt succesvol {len(fietsen)} fietsen gebracht naar station met id {teweinig.id}")
+
             else:
                 print("Er vallen geen fietsen te verplaatsen")
         except:

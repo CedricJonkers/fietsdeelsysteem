@@ -81,6 +81,5 @@ class Fietstransporteurs():
             gebr = list[count]
             gebruiker_full_name = gebr.achternaam +" "+ gebr.voornaam
             if (gebruiker_full_name == naam):
-                print("Gebruiker gevonden")
                 return gebr
             count+=1

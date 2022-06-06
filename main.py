@@ -9,6 +9,7 @@ import pandas as pd
 import html_writer as html_writer
 import sys
 import logger
+import webbrowser
 
 
 class App():
@@ -19,7 +20,7 @@ class App():
             0, "Baron Sadoinestraat (2660)", "", 0, 0, 0)
         self.stations = station.Stations()
         self.station_data = self.stations.read_stations()
-        data = input("Wilt u de vorige configuratie gebruiken?(y/n)")
+        data = input("Wilt u de vorige configuratie gebruiken?(y/n) ")
         if (data == "y"):
             self.gebruikers_data = self.gebruikers_list.read_gebruikers()
             self.fietstransporteurs_data = self.fietstransporteurs_list.read_fietstransporteurs()
@@ -45,7 +46,7 @@ if len(sys.argv) == 2 and sys.argv[1] == "-s":
     opnieuw = ""
     #opnieuw = input("Wilt u de simulatie nog eens runnen?(y/n)")
     while opnieuw != "n":
-        opnieuw = input("Wilt u de simulatie nog eens runnen?(y/n)")
+        opnieuw = input("Wilt u de simulatie nog eens runnen?(y/n) ")
         if (opnieuw == "j"):
             mijn_app.stations.simulatie(
                 mijn_app.gebruikers_data, mijn_app.fietstransporteurs_data)

@@ -13,5 +13,5 @@
 		-> Vervolgens verdelen de fietsttransporteurs de fietsen over alle stations om random plaatsen.
 
 		-> Nadat ze hiermee klaar zijn kan je van start gaan.
-		 ![image](reflectie\img\Code_UQno9OgvkZ.png)
+		 ![Code_UQno9OgvkZ](https://user-images.githubusercontent.com/78793625/172106456-d869b270-3d34-4cd0-9ec9-34cea85ab1e9.png)
 
